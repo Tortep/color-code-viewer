@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Color Code Viewer</title>
-  <link rel="icon" href="https://cdn.glitch.global/55c66d78-b0d0-42fd-90d2-5393e4f4b0a6/favicon.ico?v=1732576531695">
+  <link rel="icon" href="/favicon.ico">
   <style>
     html,
     body {
@@ -27,7 +27,7 @@
     <style>
         html { box-sizing: border-box;}
         *, *:before, *:after { margin: 0; padding: 0; box-sizing: inherit; }
-        body { background: url('https://cdn.glitch.global/55c66d78-b0d0-42fd-90d2-5393e4f4b0a6/IMG_5376(1).png?v=1738560463327') no-repeat fixed; background-size: cover; background-height: 100%; margin: 10px 10px 10px 10px;}
+        body { background: url('/background.png') no-repeat fixed; background-size: cover; background-height: 100%; margin: 10px 10px 10px 10px;}
         canvas {background: rgba(0, 0, 0, .50); padding: 10px; border-radius: 30px;}
         label {color: white; font-size: 25px; font-family: TikiIsland;}
         #history img { margin: 5px; background: rgba(0,0,0,.50); padding: 10px; border-radius: 30px;}
@@ -64,7 +64,7 @@
         #palettebar {cursor: pointer;}
         #opencloseheader {cursor: move;}
         #openclose {position: absolute; z-index: 2; box-shadow: 3px 5px 10px rgba(0,0,0,0.5);}
-        @font-face {font-family: 'TikiIsland'; font-style: normal; font-weight: 400; src: local('TikiIsland'), local('TikiIsland-Regular'), url(https://cdn.glitch.global/c02d6c08-daad-4d72-a774-d6a8dda99061/Tiki-Island.woff?v=1707411399311) format('woff');}
+        @font-face {font-family: 'TikiIsland'; font-style: normal; font-weight: 400; src: local('TikiIsland'), local('TikiIsland-Regular'), url(/Tiki-Island.woff) format('woff');}
     </style>
     <link rel=&quot;stylesheet&quot; href=&quot;//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css&quot;>
 </head>
@@ -164,7 +164,7 @@
     $(&quot;#colorLayerPicker&quot;).append(&quot;<option>&quot; + theLayer + &quot;</option>&quot;);
     c = document.getElementById('canvas');
     var oReq = new XMLHttpRequest();
-    oReq.open(&quot;GET&quot;, &quot;https://cdn.glitch.global/c02d6c08-daad-4d72-a774-d6a8dda99061/globalPalette?v=1707411396044&quot;, true);
+    oReq.open(&quot;GET&quot;, &quot;/globalPalette;, true);
     oReq.responseType=&quot;blob&quot;;
     oReq.send();
     oReq.onload = function(oE) {
