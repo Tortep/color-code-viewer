@@ -164,7 +164,7 @@
     $(&quot;#colorLayerPicker&quot;).append(&quot;<option>&quot; + theLayer + &quot;</option>&quot;);
     c = document.getElementById('canvas');
     var oReq = new XMLHttpRequest();
-    oReq.open(&quot;GET&quot;, &quot;/globalPalette;, true);
+    oReq.open(&quot;GET&quot;, &quot;/globalPalette&quot;, true);
     oReq.responseType=&quot;blob&quot;;
     oReq.send();
     oReq.onload = function(oE) {
