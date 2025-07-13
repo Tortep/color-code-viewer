@@ -21953,5 +21953,1217 @@
     "layerDefId": "436",
     "colors": "1987475062",
     "name": "Rare Bright Red Heart Scarf"
+  },
+  "3831": {
+    "id": "3831",
+    "layerDefId": "1033",
+    "colors": "258619247",
+    "name": "Breezy Antlers"
+  },
+  "3832": {
+    "id": "3832",
+    "layerDefId": "1035",
+    "colors": "253980416",
+    "name": "Breezy Talisman"
+  },
+  "3833": {
+    "id": "3833",
+    "layerDefId": "1032",
+    "colors": "258941802",
+    "name": "Breezy Leaf Cloak"
+  },
+  "3834": {
+    "id": "3834",
+    "layerDefId": "1034",
+    "colors": "255289967",
+    "name": "Breezy Gauntlets"
+  },
+  "3835": {
+    "id": "3835",
+    "layerDefId": "1036",
+    "colors": "930048512",
+    "name": "Breezy Tail Leaves"
+  },
+  "3836": {
+    "id": "3836",
+    "layerDefId": "908",
+    "colors": "1863263082",
+    "name": "Spring Butterfly Earrings"
+  },
+  "3837": {
+    "id": "3837",
+    "layerDefId": "492",
+    "colors": "594477056",
+    "name": "Spring Breeze Scarf"
+  },
+  "3838": {
+    "id": "3838",
+    "layerDefId": "373",
+    "colors": "253980471",
+    "name": "Spring Breeze Armor"
+  },
+  "3839": {
+    "id": "3839",
+    "layerDefId": "52",
+    "colors": "594492219",
+    "name": "Spring Breeze Cuffs"
+  },
+  "3840": {
+    "id": "3840",
+    "layerDefId": "1192",
+    "colors": "589505315",
+    "name": "Spring Breeze Tail"
+  },
+  "3841": {
+    "id": "3841",
+    "layerDefId": "379",
+    "colors": "391850752",
+    "name": "Golden Wind Helmet"
+  },
+  "3842": {
+    "id": "3842",
+    "layerDefId": "375",
+    "colors": "388717355",
+    "name": "Golden Wind Amulet"
+  },
+  "3843": {
+    "id": "3843",
+    "layerDefId": "373",
+    "colors": "391862059",
+    "name": "Golden Wind Armor"
+  },
+  "3844": {
+    "id": "3844",
+    "layerDefId": "377",
+    "colors": "391862059",
+    "name": "Golden Wind Gauntlets"
+  },
+  "3845": {
+    "id": "3845",
+    "layerDefId": "381",
+    "colors": "391850795",
+    "name": "Golden Wind Tail Armor"
+  },
+  "3846": {
+    "id": "3846",
+    "layerDefId": "58",
+    "colors": "1528256347",
+    "name": "Golden Elf Helmet"
+  },
+  "3847": {
+    "id": "3847",
+    "layerDefId": "64",
+    "colors": "1528233984",
+    "name": "Golden Elf Armor"
+  },
+  "3848": {
+    "id": "3848",
+    "layerDefId": "71",
+    "colors": "391839744",
+    "name": "Golden Elf Gauntlets"
+  },
+  "3849": {
+    "id": "3849",
+    "layerDefId": "69",
+    "colors": "391862107",
+    "name": "Golden Elf Tail Armor"
+  },
+  "3850": {
+    "id": "3850",
+    "layerDefId": "83",
+    "colors": "391862107",
+    "name": "Golden Lei"
+  },
+  "3851": {
+    "id": "3851",
+    "layerDefId": "1014",
+    "colors": "1528257367",
+    "name": "Golden Mira Feather Pendant"
+  },
+  "3852": {
+    "id": "3852",
+    "layerDefId": "886",
+    "colors": "385938176",
+    "name": "Rare Lucky Clover Leg Warmers"
+  },
+  "3853": {
+    "id": "3853",
+    "layerDefId": "887",
+    "colors": "391901952",
+    "name": "Rare Lucky Clover Hair Pin"
+  },
+  "3854": {
+    "id": "3854",
+    "layerDefId": "547",
+    "colors": "1528296192",
+    "name": "Rare Lucky Clover Bracelet"
+  },
+  "3855": {
+    "id": "3855",
+    "layerDefId": "216",
+    "colors": "4285556329",
+    "name": "Rare Diamond Ring"
+  },
+  "3856": {
+    "id": "3856",
+    "layerDefId": "87",
+    "colors": "682104682",
+    "name": "Rare Spring Flag"
+  },
+  "3857": {
+    "id": "3857",
+    "layerDefId": "398",
+    "colors": "1886417008",
+    "name": "Rare Golden Mystical Armor"
+  },
+  "3858": {
+    "id": "3858",
+    "layerDefId": "404",
+    "colors": "1879076976",
+    "name": "Rare Golden Mystical Tail Armor"
+  },
+  "3859": {
+    "id": "3859",
+    "layerDefId": "303",
+    "colors": "1395333675",
+    "name": "Rainy Day Gardening Hat"
+  },
+  "3860": {
+    "id": "3860",
+    "layerDefId": "249",
+    "colors": "1394219563",
+    "name": "Rainy Day Necklace"
+  },
+  "3861": {
+    "id": "3861",
+    "layerDefId": "579",
+    "colors": "1395333675",
+    "name": "Rainy Day Parasol"
+  },
+  "3862": {
+    "id": "3862",
+    "layerDefId": "611",
+    "colors": "1394212907",
+    "name": "Rainy Day Galoshes"
+  },
+  "3863": {
+    "id": "3863",
+    "layerDefId": "1085",
+    "colors": "1394212907",
+    "name": "Rainy Day Tail Armor"
+  },
+  "3864": {
+    "id": "3864",
+    "layerDefId": "627",
+    "colors": "1394224683",
+    "name": "Rainy Flower Helmet"
+  },
+  "3865": {
+    "id": "3865",
+    "layerDefId": "629",
+    "colors": "1394224683",
+    "name": "Rainy Flower Amulet"
+  },
+  "3866": {
+    "id": "3866",
+    "layerDefId": "632",
+    "colors": "441658158",
+    "name": "Rainy Flower Armor"
+  },
+  "3867": {
+    "id": "3867",
+    "layerDefId": "636",
+    "colors": "1394224683",
+    "name": "Rainy Flower Gauntlets"
+  },
+  "3868": {
+    "id": "3868",
+    "layerDefId": "643",
+    "colors": "441658880",
+    "name": "Rainy Flower Tail Armor"
+  },
+  "3869": {
+    "id": "3869",
+    "layerDefId": "724",
+    "colors": "356597825,2486504245,892270126,2828303252,490754880,1771481750,1763181651,1735455088",
+    "name": "Crafty Pixelated Glove"
+  },
+  "3870": {
+    "id": "3870",
+    "layerDefId": "725",
+    "colors": "1078007040,188060672,4130223360,2073339904,1396710656,2862022400,402942208,4050675456",
+    "name": "Crafty Pixelated Tail"
+  },
+  "3871": {
+    "id": "3871",
+    "layerDefId": "817",
+    "colors": "1881112587,2154831707,1165000795,1987084379,477134939,4117790811,1919975515,4285562971",
+    "name": "Colorful Sunflower Necklace"
+  },
+  "3872": {
+    "id": "3872",
+    "layerDefId": "924",
+    "colors": "195297280",
+    "name": "Rare Chocolatey Egg Shoes"
+  },
+  "3873": {
+    "id": "3873",
+    "layerDefId": "921",
+    "colors": "195339356",
+    "name": "Rare Chocolatey Egg Cloak"
+  },
+  "3874": {
+    "id": "3874",
+    "layerDefId": "915",
+    "colors": "190620683",
+    "name": "Rare Chocolatey Eggshell Helmet"
+  },
+  "3875": {
+    "id": "3875",
+    "layerDefId": "815",
+    "colors": "738143272",
+    "name": "Rare Spring Lei"
+  },
+  "3876": {
+    "id": "3876",
+    "layerDefId": "476",
+    "colors": "741025832",
+    "name": "Spring High Top Sneakers"
+  },
+  "3877": {
+    "id": "3877",
+    "layerDefId": "802",
+    "colors": "722927616,706084864,773455872,807141376,672399360,1765867520,1733492736,352387072",
+    "name": "Double Ribbon Bow"
+  },
+  "3878": {
+    "id": "3878",
+    "layerDefId": "494",
+    "colors": "808464432",
+    "name": "Rare Lavender Ladybug Hat"
+  },
+  "3879": {
+    "id": "3879",
+    "layerDefId": "1125",
+    "colors": "808464432",
+    "name": "Rare Lavender Daffodil Cuffs"
+  },
+  "3880": {
+    "id": "3880",
+    "layerDefId": "926",
+    "colors": "808464432",
+    "name": "Rare Lavender Flower Tail"
+  },
+  "3881": {
+    "id": "3881",
+    "layerDefId": "1116",
+    "colors": "2499782656",
+    "name": "Lily of the Valley Hat"
+  },
+  "3882": {
+    "id": "3882",
+    "layerDefId": "1119",
+    "colors": "2499805096",
+    "name": "Lily of the Valley Collar"
+  },
+  "3883": {
+    "id": "3883",
+    "layerDefId": "1122",
+    "colors": "4287932416",
+    "name": "Lily of the Valley Cape"
+  },
+  "3884": {
+    "id": "3884",
+    "layerDefId": "1125",
+    "colors": "2494103444",
+    "name": "Lily of the Valley Cuffs"
+  },
+  "3885": {
+    "id": "3885",
+    "layerDefId": "1128",
+    "colors": "2499782824",
+    "name": "Lily of the Valley Tail"
+  },
+  "3886": {
+    "id": "3886",
+    "layerDefId": "568",
+    "colors": "2961222955",
+    "name": "Hydrangea Flower Crown"
+  },
+  "3887": {
+    "id": "3887",
+    "layerDefId": "815",
+    "colors": "2905309360",
+    "name": "Hydrangea Flower Lei"
+  },
+  "3888": {
+    "id": "3888",
+    "layerDefId": "1063",
+    "colors": "2157182976",
+    "name": "Hydrangea Leaf Wings"
+  },
+  "3889": {
+    "id": "3889",
+    "layerDefId": "864",
+    "colors": "2961221733",
+    "name": "Hydrangea Flower Anklets"
+  },
+  "3890": {
+    "id": "3890",
+    "layerDefId": "926",
+    "colors": "2964106539",
+    "name": "Hydrangea Flower Tail"
+  },
+  "3891": {
+    "id": "3891",
+    "layerDefId": "585",
+    "colors": "1634926336",
+    "name": "Watermelon Cotton Candy Hat"
+  },
+  "3892": {
+    "id": "3892",
+    "layerDefId": "1132",
+    "colors": "1634861056",
+    "name": "Watermelon Taffy Collar"
+  },
+  "3893": {
+    "id": "3893",
+    "layerDefId": "432",
+    "colors": "1918787941",
+    "name": "Watermelon Gummy Wings"
+  },
+  "3894": {
+    "id": "3894",
+    "layerDefId": "376",
+    "colors": "1634885221",
+    "name": "Watermelon Rock Candy Boots"
+  },
+  "3895": {
+    "id": "3895",
+    "layerDefId": "840",
+    "colors": "1912602624",
+    "name": "Watermelon Taffy Tail"
+  },
+  "3896": {
+    "id": "3896",
+    "layerDefId": "585",
+    "colors": "1949236992",
+    "name": "Blue Raspberry Cotton Candy Hat"
+  },
+  "3897": {
+    "id": "3897",
+    "layerDefId": "1132",
+    "colors": "1949171712",
+    "name": "Blue Raspberry Taffy Collar"
+  },
+  "3898": {
+    "id": "3898",
+    "layerDefId": "432",
+    "colors": "1949196390",
+    "name": "Blue Raspberry Gummy Wings"
+  },
+  "3899": {
+    "id": "3899",
+    "layerDefId": "376",
+    "colors": "1949196390",
+    "name": "Blue Raspberry Rock Candy Boots"
+  },
+  "3900": {
+    "id": "3900",
+    "layerDefId": "840",
+    "colors": "1946157056",
+    "name": "Blue Raspberry Taffy Tail"
+  },
+  "3901": {
+    "id": "3901",
+    "layerDefId": "585",
+    "colors": "1666907904",
+    "name": "Sour Apple Cotton Candy Hat"
+  },
+  "3902": {
+    "id": "3902",
+    "layerDefId": "1132",
+    "colors": "1516437504",
+    "name": "Sour Apple Taffy Collar"
+  },
+  "3903": {
+    "id": "3903",
+    "layerDefId": "432",
+    "colors": "1666860712",
+    "name": "Sour Apple Gummy Wings"
+  },
+  "3904": {
+    "id": "3904",
+    "layerDefId": "376",
+    "colors": "1516455592",
+    "name": "Sour Apple Rock Candy Boots"
+  },
+  "3905": {
+    "id": "3905",
+    "layerDefId": "840",
+    "colors": "1660944384",
+    "name": "Sour Apple Taffy Tail"
+  },
+  "3906": {
+    "id": "3906",
+    "layerDefId": "763",
+    "colors": "4285690880",
+    "name": "Rare Fancy Ballet Shoes"
+  },
+  "3907": {
+    "id": "3907",
+    "layerDefId": "441",
+    "colors": "4285690996",
+    "name": "Rare Fancy Ballet Tutu"
+  },
+  "3908": {
+    "id": "3908",
+    "layerDefId": "59",
+    "colors": "4284511334",
+    "name": "Rare Fancy Ballet Tiara"
+  },
+  "3909": {
+    "id": "3909",
+    "layerDefId": "585",
+    "colors": "4160707328",
+    "name": "Rare Cotton Candy Hat"
+  },
+  "3910": {
+    "id": "3910",
+    "layerDefId": "238",
+    "colors": "4083706354",
+    "name": "Rare Propeller Hat"
+  },
+  "3911": {
+    "id": "3911",
+    "layerDefId": "801",
+    "colors": "788943360,755410944,671114496,712614400,1751607552,352397568,2961692928,2030477568",
+    "name": "Dragonfly Hair Clip"
+  },
+  "3912": {
+    "id": "3912",
+    "layerDefId": "800",
+    "colors": "4066652415,4046723071,442919423,476651007,342173951,1778331391,1398041087,413674495",
+    "name": "Lace Bow"
+  },
+  "3913": {
+    "id": "3913",
+    "layerDefId": "892",
+    "colors": "476659561,409550697,375996265,677986153,392773481,459882345,1734950761,1764441961",
+    "name": "Bug Hat"
+  },
+  "3914": {
+    "id": "3914",
+    "layerDefId": "308",
+    "colors": "808464432",
+    "name": "Rare Lavender Firefly Necklace"
+  },
+  "3915": {
+    "id": "3915",
+    "layerDefId": "1043",
+    "colors": "808464432",
+    "name": "Rare Lavender Mira Armbands"
+  },
+  "3916": {
+    "id": "3916",
+    "layerDefId": "770",
+    "colors": "1936290672",
+    "name": "Seaside Sailor Hat"
+  },
+  "3917": {
+    "id": "3917",
+    "layerDefId": "606",
+    "colors": "1929408512",
+    "name": "Seaside Sailor Scarf"
+  },
+  "3918": {
+    "id": "3918",
+    "layerDefId": "417",
+    "colors": "1929379840",
+    "name": "Seaside Sailor Sweater"
+  },
+  "3919": {
+    "id": "3919",
+    "layerDefId": "717",
+    "colors": "1936290560",
+    "name": "Seaside Sailor Wristband"
+  },
+  "3920": {
+    "id": "3920",
+    "layerDefId": "1234",
+    "colors": "1936261120",
+    "name": "Seaside Sailor Tail"
+  },
+  "3921": {
+    "id": "3921",
+    "layerDefId": "163",
+    "colors": "2822471483",
+    "name": "Sea Foam Scuba Helmet"
+  },
+  "3922": {
+    "id": "3922",
+    "layerDefId": "179",
+    "colors": "2141731584",
+    "name": "Sea Foam Coral Necklace"
+  },
+  "3923": {
+    "id": "3923",
+    "layerDefId": "184",
+    "colors": "2822444823",
+    "name": "Sea Foam Scuba Tank"
+  },
+  "3924": {
+    "id": "3924",
+    "layerDefId": "190",
+    "colors": "2818572288",
+    "name": "Sea Foam Trident"
+  },
+  "3925": {
+    "id": "3925",
+    "layerDefId": "162",
+    "colors": "2822438912",
+    "name": "Sea Foam Launcher"
+  },
+  "3926": {
+    "id": "3926",
+    "layerDefId": "1118",
+    "colors": "1533691248",
+    "name": "Orange Ice Cream Helmet"
+  },
+  "3927": {
+    "id": "3927",
+    "layerDefId": "1121",
+    "colors": "1784366448",
+    "name": "Orange Waffle Amulet"
+  },
+  "3928": {
+    "id": "3928",
+    "layerDefId": "1124",
+    "colors": "1533691136",
+    "name": "Orange Dessert Armor"
+  },
+  "3929": {
+    "id": "3929",
+    "layerDefId": "1127",
+    "colors": "1784375920",
+    "name": "Orange Waffle Shoes"
+  },
+  "3930": {
+    "id": "3930",
+    "layerDefId": "1130",
+    "colors": "1533691248",
+    "name": "Orange Banana Split Tail"
+  },
+  "3931": {
+    "id": "3931",
+    "layerDefId": "1118",
+    "colors": "453446447",
+    "name": "Blueberry Ice Cream Helmet"
+  },
+  "3932": {
+    "id": "3932",
+    "layerDefId": "1121",
+    "colors": "185020187",
+    "name": "Blueberry Waffle Amulet"
+  },
+  "3933": {
+    "id": "3933",
+    "layerDefId": "1124",
+    "colors": "118173440",
+    "name": "Blueberry Dessert Armor"
+  },
+  "3934": {
+    "id": "3934",
+    "layerDefId": "1127",
+    "colors": "185010971",
+    "name": "Blueberry Waffle Shoes"
+  },
+  "3935": {
+    "id": "3935",
+    "layerDefId": "1130",
+    "colors": "453707567",
+    "name": "Blueberry Banana Split Tail"
+  },
+  "3936": {
+    "id": "3936",
+    "layerDefId": "1118",
+    "colors": "157626397",
+    "name": "Grape Ice Cream Helmet"
+  },
+  "3937": {
+    "id": "3937",
+    "layerDefId": "1121",
+    "colors": "2752065565",
+    "name": "Grape Waffle Amulet"
+  },
+  "3938": {
+    "id": "3938",
+    "layerDefId": "1124",
+    "colors": "161755136",
+    "name": "Grape Dessert Armor"
+  },
+  "3939": {
+    "id": "3939",
+    "layerDefId": "1127",
+    "colors": "2752095261",
+    "name": "Grape Waffle Shoes"
+  },
+  "3940": {
+    "id": "3940",
+    "layerDefId": "1130",
+    "colors": "161755165",
+    "name": "Grape Banana Split Tail"
+  },
+  "3941": {
+    "id": "3941",
+    "layerDefId": "939",
+    "colors": "1937003519",
+    "name": "Deep Sea Diamond Nautilus Necklace"
+  },
+  "3942": {
+    "id": "3942",
+    "layerDefId": "940",
+    "colors": "1934884863",
+    "name": "Deep Sea Diamond Encrusted Fins"
+  },
+  "3943": {
+    "id": "3943",
+    "layerDefId": "829",
+    "colors": "1400073471",
+    "name": "Deep Sea Pirate Hat"
+  },
+  "3944": {
+    "id": "3944",
+    "layerDefId": "314",
+    "colors": "1399616256",
+    "name": "Deep Sea Skull Necklace"
+  },
+  "3945": {
+    "id": "3945",
+    "layerDefId": "213",
+    "colors": "1936485631",
+    "name": "Deep Sea Shell Helmet"
+  },
+  "3946": {
+    "id": "3946",
+    "layerDefId": "215",
+    "colors": "1936523263",
+    "name": "Deep Sea Shell Armor"
+  },
+  "3947": {
+    "id": "3947",
+    "layerDefId": "226",
+    "colors": "1936457728",
+    "name": "Deep Sea Shell Fin Armor"
+  },
+  "3948": {
+    "id": "3948",
+    "layerDefId": "1044",
+    "colors": "1953715052",
+    "name": "Deep Sea Coral Hat"
+  },
+  "3949": {
+    "id": "3949",
+    "layerDefId": "171",
+    "colors": "1400110956",
+    "name": "Deep Sea Angler Fish Hat"
+  },
+  "3950": {
+    "id": "3950",
+    "layerDefId": "229",
+    "colors": "1392536576",
+    "name": "Deep Sea Lionfish Helmet"
+  },
+  "3951": {
+    "id": "3951",
+    "layerDefId": "228",
+    "colors": "1392536576",
+    "name": "Deep Sea Lionfish Armor"
+  },
+  "3952": {
+    "id": "3952",
+    "layerDefId": "227",
+    "colors": "1392536576",
+    "name": "Deep Sea Lionfish Fin Armor"
+  },
+  "3953": {
+    "id": "3953",
+    "layerDefId": "46",
+    "colors": "376467556",
+    "name": "Rare Summer Star Cape"
+  },
+  "3954": {
+    "id": "3954",
+    "layerDefId": "88",
+    "colors": "1880507248",
+    "name": "Rare Summer Mech Angel Wings"
+  },
+  "3955": {
+    "id": "3955",
+    "layerDefId": "81",
+    "colors": "1880507236",
+    "name": "Rare Summer Mech Angel Helmet"
+  },
+  "3956": {
+    "id": "3956",
+    "layerDefId": "365",
+    "colors": "1996452342",
+    "name": "Rare Freedom Tie-Dye Shirt"
+  },
+  "3957": {
+    "id": "3957",
+    "layerDefId": "778",
+    "colors": "1058407167,1059920383,1059788799,1060117759,1060051967,1058341375,1059854591,1063862783",
+    "name": "Insect Water Wings"
+  },
+  "3958": {
+    "id": "3958",
+    "layerDefId": "336",
+    "colors": "1946157056",
+    "name": "Rare Cyan Beanie"
+  },
+  "3959": {
+    "id": "3959",
+    "layerDefId": "831",
+    "colors": "1953789044",
+    "name": "Rare Cyan Light-Up Hibiscus Ring"
+  },
+  "3960": {
+    "id": "3960",
+    "layerDefId": "83",
+    "colors": "1953789044",
+    "name": "Rare Cyan Lei"
+  },
+  "3961": {
+    "id": "3961",
+    "layerDefId": "1214",
+    "colors": "1392508928",
+    "name": "Monochrome Newsboy Cap"
+  },
+  "3962": {
+    "id": "3962",
+    "layerDefId": "1216",
+    "colors": "4283629568",
+    "name": "Monochrome Work Rag"
+  },
+  "3963": {
+    "id": "3963",
+    "layerDefId": "1218",
+    "colors": "1400504147",
+    "name": "Monochrome Work Shirt"
+  },
+  "3964": {
+    "id": "3964",
+    "layerDefId": "1220",
+    "colors": "4294967295",
+    "name": "Monochrome Work Pants"
+  },
+  "3965": {
+    "id": "3965",
+    "layerDefId": "1222",
+    "colors": "1409220608",
+    "name": "Monochrome Broom Tail"
+  },
+  "3966": {
+    "id": "3966",
+    "layerDefId": "1205",
+    "colors": "184549376",
+    "name": "Sepia Huntress Hat"
+  },
+  "3967": {
+    "id": "3967",
+    "layerDefId": "1207",
+    "colors": "520093696",
+    "name": "Sepia Ragged Bandana"
+  },
+  "3968": {
+    "id": "3968",
+    "layerDefId": "1209",
+    "colors": "186589236",
+    "name": "Sepia Hunter Garb"
+  },
+  "3969": {
+    "id": "3969",
+    "layerDefId": "1211",
+    "colors": "187957248",
+    "name": "Sepia Hunter Boots"
+  },
+  "3970": {
+    "id": "3970",
+    "layerDefId": "1213",
+    "colors": "187957248",
+    "name": "Sepia Tail Belts"
+  },
+  "3971": {
+    "id": "3971",
+    "layerDefId": "1092",
+    "colors": "1732203367",
+    "name": "Charcoal Ink Hat"
+  },
+  "3972": {
+    "id": "3972",
+    "layerDefId": "1097",
+    "colors": "1397974847",
+    "name": "Charcoal Ink Necklace"
+  },
+  "3973": {
+    "id": "3973",
+    "layerDefId": "1101",
+    "colors": "1063736167",
+    "name": "Charcoal Ink Smock"
+  },
+  "3974": {
+    "id": "3974",
+    "layerDefId": "1095",
+    "colors": "1732198227",
+    "name": "Charcoal Ink Shoes"
+  },
+  "3975": {
+    "id": "3975",
+    "layerDefId": "1099",
+    "colors": "1061114727",
+    "name": "Charcoal Ink Tail"
+  },
+  "3976": {
+    "id": "3976",
+    "layerDefId": "1092",
+    "colors": "286467857",
+    "name": "Gloomy Ink Hat"
+  },
+  "3977": {
+    "id": "3977",
+    "layerDefId": "1097",
+    "colors": "286467859",
+    "name": "Gloomy Ink Necklace"
+  },
+  "3978": {
+    "id": "3978",
+    "layerDefId": "1101",
+    "colors": "321327377",
+    "name": "Gloomy Ink Smock"
+  },
+  "3979": {
+    "id": "3979",
+    "layerDefId": "1095",
+    "colors": "320016679",
+    "name": "Gloomy Ink Shoes"
+  },
+  "3980": {
+    "id": "3980",
+    "layerDefId": "1099",
+    "colors": "286331687",
+    "name": "Gloomy Ink Tail"
+  },
+  "3981": {
+    "id": "3981",
+    "layerDefId": "1092",
+    "colors": "277093136",
+    "name": "Cobalt Ink Hat"
+  },
+  "3982": {
+    "id": "3982",
+    "layerDefId": "1097",
+    "colors": "2215648132",
+    "name": "Cobalt Ink Necklace"
+  },
+  "3983": {
+    "id": "3983",
+    "layerDefId": "1101",
+    "colors": "2215648016",
+    "name": "Cobalt Ink Smock"
+  },
+  "3984": {
+    "id": "3984",
+    "layerDefId": "1095",
+    "colors": "269517851",
+    "name": "Cobalt Ink Shoes"
+  },
+  "3985": {
+    "id": "3985",
+    "layerDefId": "1099",
+    "colors": "2223247387",
+    "name": "Cobalt Ink Tail"
+  },
+  "3986": {
+    "id": "3986",
+    "layerDefId": "556",
+    "colors": "1778345279",
+    "name": "Great White Shark Hat"
+  },
+  "3987": {
+    "id": "3987",
+    "layerDefId": "517",
+    "colors": "1442775040",
+    "name": "Great White Shark Necklace"
+  },
+  "3988": {
+    "id": "3988",
+    "layerDefId": "150",
+    "colors": "4285098345",
+    "name": "Great White Shark Fin"
+  },
+  "3989": {
+    "id": "3989",
+    "layerDefId": "760",
+    "colors": "4294927681",
+    "name": "Great White Shark Bracelet"
+  },
+  "3990": {
+    "id": "3990",
+    "layerDefId": "1007",
+    "colors": "1768488960",
+    "name": "Great White Shark Tail"
+  },
+  "3991": {
+    "id": "3991",
+    "layerDefId": "770",
+    "colors": "2470150055",
+    "name": "Sea Foam Sailor Hat"
+  },
+  "3992": {
+    "id": "3992",
+    "layerDefId": "120",
+    "colors": "2801795072",
+    "name": "Sea Foam Bow"
+  },
+  "3993": {
+    "id": "3993",
+    "layerDefId": "209",
+    "colors": "998221568",
+    "name": "Sea Foam Anemone Bow"
+  },
+  "3994": {
+    "id": "3994",
+    "layerDefId": "293",
+    "colors": "2801795072",
+    "name": "Sea Foam Seaweed Boa"
+  },
+  "3995": {
+    "id": "3995",
+    "layerDefId": "611",
+    "colors": "2805661951",
+    "name": "Sea Foam Galoshes"
+  },
+  "3996": {
+    "id": "3996",
+    "layerDefId": "654",
+    "colors": "1073763177",
+    "name": "Tassel-Eared Squirrel Ears"
+  },
+  "3997": {
+    "id": "3997",
+    "layerDefId": "520",
+    "colors": "1399406592",
+    "name": "Tassel-Eared Squirrel Necklace"
+  },
+  "3998": {
+    "id": "3998",
+    "layerDefId": "1025",
+    "colors": "1396703232",
+    "name": "Tassel-Eared Squirrel Fur"
+  },
+  "3999": {
+    "id": "3999",
+    "layerDefId": "865",
+    "colors": "1399406696",
+    "name": "Tassel-Eared Squirrel Cuffs"
+  },
+  "4000": {
+    "id": "4000",
+    "layerDefId": "1233",
+    "colors": "1396703232",
+    "name": "Tassel-Eared Squirrel Tail"
+  },
+  "4001": {
+    "id": "4001",
+    "layerDefId": "654",
+    "colors": "3422599273",
+    "name": "Eastern Gray Squirrel Ears"
+  },
+  "4002": {
+    "id": "4002",
+    "layerDefId": "520",
+    "colors": "3093946368",
+    "name": "Eastern Gray Squirrel Necklace"
+  },
+  "4003": {
+    "id": "4003",
+    "layerDefId": "1025",
+    "colors": "3100377088",
+    "name": "Eastern Gray Squirrel Fur"
+  },
+  "4004": {
+    "id": "4004",
+    "layerDefId": "865",
+    "colors": "3093946473",
+    "name": "Eastern Gray squirrel Cuffs"
+  },
+  "4005": {
+    "id": "4005",
+    "layerDefId": "1233",
+    "colors": "3100377088",
+    "name": "Eastern Gray Squirrel Tail"
+  },
+  "4006": {
+    "id": "4006",
+    "layerDefId": "654",
+    "colors": "2373482716",
+    "name": "Eurasian Red Squirrel Ears"
+  },
+  "4007": {
+    "id": "4007",
+    "layerDefId": "520",
+    "colors": "2027719936",
+    "name": "Eurasian Red Squirrel Necklace"
+  },
+  "4008": {
+    "id": "4008",
+    "layerDefId": "1025",
+    "colors": "2022506496",
+    "name": "Eurasian Red Squirrel Fur"
+  },
+  "4009": {
+    "id": "4009",
+    "layerDefId": "865",
+    "colors": "2027720097",
+    "name": "Eurasian Red Squirrel Cuffs"
+  },
+  "4010": {
+    "id": "4010",
+    "layerDefId": "1233",
+    "colors": "2022506496",
+    "name": "Eurasian Red Squirrel Tail"
+  },
+  "4011": {
+    "id": "4011",
+    "layerDefId": "58",
+    "colors": "1396659047",
+    "name": "Blackout Elf Helmet"
+  },
+  "4012": {
+    "id": "4012",
+    "layerDefId": "71",
+    "colors": "1062404096",
+    "name": "Blackout Elf Bracelets"
+  },
+  "4013": {
+    "id": "4013",
+    "layerDefId": "64",
+    "colors": "1396637696",
+    "name": "Blackout Elf Armor"
+  },
+  "4014": {
+    "id": "4014",
+    "layerDefId": "69",
+    "colors": "1396659047",
+    "name": "Blackout Elf Tail Armor"
+  },
+  "4015": {
+    "id": "4015",
+    "layerDefId": "336",
+    "colors": "1056964608",
+    "name": "Blackout Beanie"
+  },
+  "4016": {
+    "id": "4016",
+    "layerDefId": "429",
+    "colors": "1063736064",
+    "name": "Blackout Parka"
+  },
+  "4017": {
+    "id": "4017",
+    "layerDefId": "759",
+    "colors": "1063736167",
+    "name": "Blackout Sunshine Galoshes"
+  },
+  "4018": {
+    "id": "4018",
+    "layerDefId": "51",
+    "colors": "1733514047",
+    "name": "Blackout Glove"
+  },
+  "4019": {
+    "id": "4019",
+    "layerDefId": "152",
+    "colors": "1062404096",
+    "name": "Blackout Spiked Collar"
+  },
+  "4020": {
+    "id": "4020",
+    "layerDefId": "154",
+    "colors": "1062404096",
+    "name": "Blackout Spiked Wristband"
+  },
+  "4021": {
+    "id": "4021",
+    "layerDefId": "514",
+    "colors": "1063736127",
+    "name": "Blackout Robot Mask"
+  },
+  "4022": {
+    "id": "4022",
+    "layerDefId": "1024",
+    "colors": "1062430567",
+    "name": "Blackout Mechanical Wings"
+  },
+  "4023": {
+    "id": "4023",
+    "layerDefId": "740",
+    "colors": "1062425407",
+    "name": "Blackout Wheels"
+  },
+  "4024": {
+    "id": "4024",
+    "layerDefId": "783",
+    "colors": "4294342399",
+    "name": "Rare Freedom Sparkly Scarf"
+  },
+  "4025": {
+    "id": "4025",
+    "layerDefId": "176",
+    "colors": "841307135",
+    "name": "Rare Great White Tooth Necklace"
+  },
+  "4026": {
+    "id": "4026",
+    "layerDefId": "118",
+    "colors": "4046745691",
+    "name": "Rare Jolly Elf Hat"
+  },
+  "4027": {
+    "id": "4027",
+    "layerDefId": "355",
+    "colors": "1534089072",
+    "name": "Rare Epic Sun Hat"
+  },
+  "4028": {
+    "id": "4028",
+    "layerDefId": "354",
+    "colors": "4294275136",
+    "name": "Rare Epic Moon Hat"
+  },
+  "4029": {
+    "id": "4029",
+    "layerDefId": "895",
+    "colors": "1730822,1534211,1861896,1599748,1468674,1403137,5466471,6902613",
+    "name": "Giant Paws"
+  },
+  "4030": {
+    "id": "4030",
+    "layerDefId": "455",
+    "colors": "1583242846",
+    "name": "Rare Hot Magenta Clown Hair"
+  },
+  "4031": {
+    "id": "4031",
+    "layerDefId": "323",
+    "colors": "1583242846",
+    "name": "Rare Hot Magenta Lasso"
+  },
+  "4032": {
+    "id": "4032",
+    "layerDefId": "212",
+    "colors": "1062420287",
+    "name": "Rare Blackout Party Hat"
   }
 }
