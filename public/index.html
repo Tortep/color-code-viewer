@@ -236,6 +236,9 @@
       animating = true;
       tick(0);
     });
+        $(&quot;#credits&quot;).on('click', function () {
+      window.open('credits.html', '_blank');
+    });
     $(&quot;form&quot;).on('submit', function () {
         print = 0;
         error(&quot;&quot;);
