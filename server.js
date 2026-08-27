@@ -6,6 +6,7 @@ const zlib    = require('zlib');
 const fs      = require('fs');
 const amfjs   = require('amfjs');
 const crypto  = require('crypto');
+const fetch   = require('node-fetch');
 const exec    = require('child_process').exec;
 const web_port  = 8080;
 const Readable  = require('stream').Readable;
