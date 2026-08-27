@@ -849,25 +849,28 @@
         }
     }
     function setGamePalette(param1, param2 = null, param3 = null) {
-        var _loc4_ = param1.getInt32(0);
-        gamePalette = [];
-        var _loc5_ = 0;
-        for (let i = 1; i <= _loc4_/4; i++) {
-            gamePalette.push(param1.getUint32(i*4));
+        var _loc4_: int = param1.readUnsignedInt() / 4;
+        this.gamePalette = new Array(_loc4_);
+        var _loc5_: int = 0;
+        while (_loc5_ < _loc4_) {
+            this.gamePalette[_loc5_++] = param1.readUnsignedInt();
         }
-        avatarPalette1 = [];
-        offset = _loc4_ + 4;
-        _loc4_ = param1.getInt32(offset);
-        offset += 4;
-        for (let i = 0; i < _loc4_; i++) {
-            avatarPalette1.push(param1.getUint8(offset+i));
+        if (param2) {
+            _loc4_ = param2.length;
+            this.avatarPalette1 = new Array(_loc4_);
+            _loc5_ = 0;
+            while (_loc5_ < _loc4_) {
+                this.avatarPalette1[_loc5_++] = param2.readUnsignedByte();
+            }
         }
-        avatarPalette2 = [];
-        offset = offset + _loc4_;
-        _loc4_ = param1.getInt32(offset);
-        offset += 4;
-        for (let i = 0; i < _loc4_; i++) {
-            avatarPalette2.push(param1.getUint8(offset+i));
+        if (param3) {
+            param3.position = 0;
+            _loc4_ = param3.length;
+            this.avatarPalette2 = new Array(_loc4_);
+            _loc5_ = 0;
+            while (_loc5_ < _loc4_) {
+                this.avatarPalette2[_loc5_++] = param3.readUnsignedByte();
+            }
         }
     }
     function setLayer(param1, param2, param3) {
