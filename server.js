@@ -15,9 +15,11 @@ app.use(express.static('public'));
 
 var imageArrays = {};
 
-app.get('/iconLayer/:animalType-:iconSize-:layer', function(req, res) {
+app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
 
-  var pre = '1636/imageArrays';
+  const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
+
+  var pre = '${VER}/imageArrays';
   var v = 1;
   var i = 0;
   var pp = "";
