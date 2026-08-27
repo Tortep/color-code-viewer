@@ -6,6 +6,7 @@ const zlib    = require('zlib');
 const fs      = require('fs');
 const amfjs   = require('amfjs');
 const crypto  = require('crypto');
+const fetch   = require('node-fetch');
 const exec    = require('child_process').exec;
 const web_port  = 8080;
 const Readable  = require('stream').Readable;
@@ -15,9 +16,11 @@ app.use(express.static('public'));
 
 var imageArrays = {};
 
-app.get('/iconLayer/:animalType-:iconSize-:layer', function(req, res) {
+app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
 
-  var pre = '1636/imageArrays';
+  const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
+
+  var pre = `${VER}/imageArrays`;
   var v = 1;
   var i = 0;
   var pp = "";
