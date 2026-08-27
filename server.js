@@ -20,7 +20,7 @@ app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
 
   const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
 
-  var pre = `${VER}/imageArrays`;
+  var pre = '${VER}/imageArrays';
   var v = 1;
   var i = 0;
   var pp = "";
