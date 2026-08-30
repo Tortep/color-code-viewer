@@ -23375,5 +23375,11 @@
     "layerDefId": "219",
     "colors": "3218299635,472920053,489762824,355008769,2494044544,1534081904,3882455975",
     "name": "Wild Dual Samurai Swords"
+  },
+  "4289": {
+    "id": "4289",
+    "layerDefId": "927",
+    "colors": "492503040",
+    "name": "Painted Striped Egg Shoes"
   }
 }
