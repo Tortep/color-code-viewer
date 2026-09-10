@@ -64,13 +64,16 @@
         #palettebar {cursor: pointer;}
         #opencloseheader {cursor: move;}
         #openclose {position: absolute; z-index: 2; box-shadow: 3px 5px 10px rgba(0,0,0,0.5);}
+        #lastupdated {position: absolute; bottom:0; right:0;}
+        @font-face {font-family: 'CCDigitalDelivery'; font-style: normal; font-weight: 400; src: local('CCDigitalDelivery'), local('CCDigitalDelivery'), url(/CCDigitalDelivery.woff) format('woff');}
         @font-face {font-family: 'TikiIsland'; font-style: normal; font-weight: 400; src: local('TikiIsland'), local('TikiIsland-Regular'), url(/Tiki-Island.woff) format('woff');}
     </style>
     <link rel=&quot;stylesheet&quot; href=&quot;//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css&quot;>
 </head>
 <body>
-
-
+<div id=&quot;lastupdated&quot;
+    <p class="updatedate">Last Updated: September 9, 2026</p>
+</div>
 <div id=&quot;bottom&quot;>
     <div><textarea name=&quot;quickIn&quot; placeholder=&quot;Animal|Animation|Item|Color&quot; id=&quot;quickIn&quot; cols=&quot;60&quot; rows=&quot;5&quot;></textarea></div><br>
     <button id=&quot;quickGo&quot;>Load</button>
