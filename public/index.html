@@ -18,6 +18,16 @@
       width: 100%;
       height: 100%;
     }
+    #lastupdated {
+      position: fixed; 
+      bottom:10px; 
+      right:10px;
+    }
+    #updatedate {
+      color: white; 
+      font-family: CCDigitalDelivery; 
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
@@ -64,8 +74,6 @@
         #palettebar {cursor: pointer;}
         #opencloseheader {cursor: move;}
         #openclose {position: absolute; z-index: 2; box-shadow: 3px 5px 10px rgba(0,0,0,0.5);}
-        #lastupdated {position: fixed; bottom:10px; right:10px;}
-        #updatedate {color: white; font-family: CCDigitalDelivery; font-size: 16px;}
         @font-face {font-family: 'CCDigitalDelivery'; font-style: normal; font-weight: 400; src: local('CCDigitalDelivery'), local('CCDigitalDelivery'), url(/CCDigitalDelivery.woff) format('woff');}
         @font-face {font-family: 'TikiIsland'; font-style: normal; font-weight: 400; src: local('TikiIsland'), local('TikiIsland-Regular'), url(/Tiki-Island.woff) format('woff');}
     </style>
@@ -125,9 +133,6 @@
 
     <ul id=&quot;history&quot;>
     </ul>
-</div>
-<div id=&quot;lastupdated&quot;>
-    <p id="updatedate">Last Updated: September 9, 2026</p>
 </div>
 <script src=&quot;//code.jquery.com/jquery-1.11.1.js&quot;></script>
 <script src=&quot;//code.jquery.com/ui/1.12.1/jquery-ui.min.js&quot;></script>
@@ -1048,5 +1053,8 @@
     }
       </script>
 <ul id=&quot;ui-id-1&quot; tabindex=&quot;0&quot; class=&quot;ui-menu ui-widget ui-widget-content ui-autocomplete ui-front&quot; style=&quot;display: none;&quot;></ul><div role=&quot;status&quot; aria-live=&quot;assertive&quot; aria-relevant=&quot;additions&quot; class=&quot;ui-helper-hidden-accessible&quot;></div></body></html>"></iframe>
+  <div id=&quot;lastupdated&quot;>
+    <p id="updatedate">Last Updated: September 9, 2026</p>
+</div>
 </body>
 </html>
