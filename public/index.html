@@ -4,6 +4,7 @@
   <title>AJC Item Site</title>
   <link rel="icon" href="/favicon.ico">
   <style>
+    @font-face {font-family: 'CCDigitalDelivery'; font-style: normal; font-weight: 400; src: local('CCDigitalDelivery'), local('CCDigitalDelivery'), url(/CCDigitalDelivery.woff) format('woff');}
     html,
     body {
       margin: 0;
@@ -18,11 +19,13 @@
       position: fixed; 
       bottom:10px; 
       right:10px;
+      z-index: 1000;
     }
     #updatedate {
       color: white; 
       font-family: CCDigitalDelivery; 
       font-size: 16px;
+      margin: 0;
     }
     #contentFrame {
       position: absolute;
@@ -31,13 +34,12 @@
       width: 100%;
       height: 100%;
     }
-  @font-face {font-family: 'CCDigitalDelivery'; font-style: normal; font-weight: 400; src: local('CCDigitalDelivery'), local('CCDigitalDelivery'), url(/CCDigitalDelivery.woff) format('woff');}
   </style>
-<div id=&quot;lastupdated&quot;>
-    <p id="updatedate">Last Updated: September 9, 2026</p>
-</div>
 </head>
 <body>
+  <div id=&quot;lastupdated&quot;>
+    <p id="updatedate">Last Updated: September 9, 2026</p>
+  </div>
   <iframe id="contentFrame" frameborder="0" allowfullscreen=""
     srcdoc="<html><head><base href=&quot;.&quot; target=&quot;_top&quot;>
     <meta charset=&quot;utf-8&quot;>
