@@ -10,7 +10,28 @@
       width: 100%;
       height: 100%;
     }
-
+    @font-face {
+      font-family: 'CCDigitalDelivery'; 
+      font-style: normal; 
+      font-weight: 400; 
+      src: local('CCDigitalDelivery'), local('CCDigitalDelivery'), url(/CCDigitalDelivery.woff) format('woff');
+    }
+    body {
+      background: url('/background.png') no-repeat fixed;
+      background-size: cover;
+    }
+    #lastupdated {
+      position: relative;
+    }
+    #updatedate {
+      position: absolute;
+      bottom: -10px;
+      right: 10px;
+      z-index: 1000;
+      font-size: 16px;
+      color: white; 
+      font-family: CCDigitalDelivery; 
+    }
     #contentFrame {
       position: absolute;
       top: 0;
@@ -21,13 +42,16 @@
   </style>
 </head>
 <body>
+  <div id=&quot;lastupdated&quot;>
+    <p id="updatedate" title="- Fixed pixel bleeding on sprites&#013;- Hoop Earrings, Painted Striped Egg Shoes sprites now on site&#013;- Full item list updated as of Aug 26">Last Updated: September 9, 2026</p>
+  </div>
   <iframe id="contentFrame" frameborder="0" allowfullscreen=""
     srcdoc="<html><head><base href=&quot;.&quot; target=&quot;_top&quot;>
     <meta charset=&quot;utf-8&quot;>
     <style>
         html { box-sizing: border-box;}
         *, *:before, *:after { margin: 0; padding: 0; box-sizing: inherit; }
-        body { background: url('/background.png') no-repeat fixed; background-size: cover; background-height: 100%; margin: 10px 10px 10px 10px;}
+        body {margin: 10px 10px 10px 10px;}
         canvas {background: rgba(0, 0, 0, .50); padding: 10px; border-radius: 30px;}
         label {color: white; font-size: 25px; font-family: TikiIsland;}
         #history img { margin: 5px; background: rgba(0,0,0,.50); padding: 10px; border-radius: 30px;}
