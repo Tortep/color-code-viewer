@@ -211,8 +211,59 @@
         </select>
         <br>
 
-        <label for=&quot;avatarId&quot;>Design</label>
-        <input type=&quot;text&quot; name=&quot;layerId&quot; placeholder=&quot;layer id&quot; value=&quot;43&quot;>
+        <label for=&quot;avatarId&quot;>Layer</label>
+        <input type=&quot;text&quot; list=&quot;layerPreset&quot; id=&quot;preset&quot; name=&quot;layerId&quot; placeholder=&quot;Double-click me&quot;>
+        <datalist id=&quot;layerPreset&quot;>
+            <option value=&quot;1&quot;>Tiger / 1</option>
+            <option value=&quot;2&quot;>Eagle / 2</option>
+            <option value=&quot;3&quot;>Deer / 3</option>
+            <option value=&quot;4&quot;>Wolf / 4</option>
+            <option value=&quot;5&quot;>Koala / 5</option>
+            <option value=&quot;6&quot;>Panda / 6</option>
+            <option value=&quot;7&quot;>Monkey / 7</option>
+            <option value=&quot;8&quot;>Bunny / 8</option>
+            <option value=&quot;9&quot;>Hyena / 9</option>
+            <option value=&quot;10&quot;>Otter / 10</option>
+            <option value=&quot;11&quot;>Polar Bear / 11</option>
+            <option value=&quot;12&quot;>Owl / 12</option>
+            <option value=&quot;13&quot;>Rhino / 13</option>
+            <option value=&quot;14&quot;>Llama / 14</option>
+            <option value=&quot;15&quot;>Crocodile / 15</option>
+            <option value=&quot;16&quot;>Elephant / 16</option>
+            <option value=&quot;17&quot;>Lion / 17</option>
+            <option value=&quot;18&quot;>Seal / 18</option>
+            <option value=&quot;19&quot;>Dolphin / 19</option>
+            <option value=&quot;20&quot;>Shark / 20</option>
+            <option value=&quot;21&quot;>Octopus / 21</option>
+            <option value=&quot;22&quot;>Turtle / 22</option>
+            <option value=&quot;23&quot;>Horse / 23</option>
+            <option value=&quot;24&quot;>Penguin / 24</option>
+            <option value=&quot;25&quot;>Fox / 25</option>
+            <option value=&quot;26&quot;>Giraffe / 26</option>
+            <option value=&quot;27&quot;>Kangaroo / 27</option>
+            <option value=&quot;28&quot;>Arctic Wolf / 28</option>
+            <option value=&quot;29&quot;>Snow Leopard / 29</option>
+            <option value=&quot;30&quot;>Raccoon / 30</option>
+            <option value=&quot;31&quot;>Cheetah / 31</option>
+            <option value=&quot;32&quot;>Lynx / 32</option>
+            <option value=&quot;33&quot;>Arctic Fox / 33</option>
+            <option value=&quot;34&quot;>Goat / 34</option>
+            <option value=&quot;35&quot;>Falcon / 35</option>
+            <option value=&quot;36&quot;>Pig / 36</option>
+            <option value=&quot;37&quot;>Sloth / 37</option>
+            <option value=&quot;38&quot;>Lemur / 38</option>
+            <option value=&quot;39&quot;>Toucan / 39</option>
+            <option value=&quot;40&quot;>Sheep / 40</option>
+            <option value=&quot;41&quot;>Cougar / 41</option>
+            <option value=&quot;42&quot;>Coyote / 42</option>
+            <option value=&quot;43&quot;>Flamingo / 43</option>
+        </datalist>
+        <script>
+            const input = document.getElementById('preset');
+            input.addEventListener('focus', function() {
+            this.setAttribute('autocomplete', 'off'); 
+            });
+        </script>
         <br>
     </div>
     <div class=&quot;back1&quot;>
