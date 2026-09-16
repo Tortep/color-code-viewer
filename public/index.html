@@ -42,7 +42,7 @@
 </head>
 <body>
   <div id=&quot;lastupdated&quot;>
-    <p id="updatedate" title="- Fixed pixel bleeding on sprites&#013;- Hoop Earrings, Painted Striped Egg Shoes sprites now on site&#013;- Full item list updated as of Aug 26">Last updated September 9, 2026</p>
+    <p id="updatedate" title="- Added dropdowns and autofills to Animal, Animation, Design ID boxes&#013;- Full item list updated as of Aug 26">Last updated September 16, 2026</p>
   </div>
   <iframe id="contentFrame" frameborder="0" allowfullscreen=""
     srcdoc="<html><head><base href=&quot;.&quot; target=&quot;_top&quot;>
@@ -56,11 +56,13 @@
         #history img { margin: 5px; background: rgba(0,0,0,.50); padding: 10px; border-radius: 30px;}
         #history { display: inline; align-content: center;}
         #scroll {height: calc(100vh - 250px); overflow: auto; margin-left: auto; margin-right: auto;}
-        textarea { margin-top: -64px; border-radius: 30px; padding: 20px; font-family: TikiIsland; width: 265px; margin-top: 10px; height: 110px; font-size: 20px; resize: none;}
+        textarea { margin-top: -64px; border-radius: 30px; padding: 20px; width: 265px; margin-top: 10px; height: 110px; font-size: 16px; resize: none;}
         form {display: block;}
         button {font-size: 20px; border-radius: 30px; padding-left: 10px; padding-right: 10px; background: white; border: 3px solid rgba(255, 255, 255, 0.5); font-family: TikiIsland; width: 85px; cursor: pointer;}
         button:hover {background: grey;}
-        input[type=&quot;text&quot;], input[type=&quot;submit&quot;], #autocomplete {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 20px; margin-left: 20px; width: 100px; text-align: center; font-family: TikiIsland; background-color: rgba(255, 255, 255);}
+        input[type=&quot;text&quot;], #autocomplete {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 16px; margin-left: 20px; width: 165px; text-align: center; background-color: rgba(255, 255, 255);}
+        select[type=&quot;text&quot;] {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 16px; margin-left: 20px; width: 165px; text-align: center; background-color: rgba(255, 255, 255);}
+        input[type=&quot;submit&quot;] {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 20px; margin-left: 20px; width: 100px; text-align: center; font-family: TikiIsland; background-color: rgba(255, 255, 255);}
         #gobutton {background: white; cursor: pointer;}
         #gobutton:hover {background: grey;}
         .cSlider {cursor: pointer;}
@@ -88,6 +90,7 @@
         #opencloseheader {cursor: move;}
         #openclose {position: absolute; z-index: 2; box-shadow: 3px 5px 10px rgba(0,0,0,0.5);}
         @font-face {font-family: 'TikiIsland'; font-style: normal; font-weight: 400; src: local('TikiIsland'), local('TikiIsland-Regular'), url(/Tiki-Island.woff) format('woff');}
+        @font-face {font-family: 'CCDigitalDelivery'; font-weight: bold; src: local('CCDigitalDelivery'), url(/CCDigitalDelivery.woff) format('woff');}
     </style>
     <link rel=&quot;stylesheet&quot; href=&quot;//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css&quot;>
 </head>
@@ -108,21 +111,177 @@
       <button id=&quot;credits&quot; type=&quot;button&quot;>Credits</button>
     <div id=&quot;middle&quot;>
     <div class=&quot;back&quot;>
-        <label for=&quot;avatarId&quot;>Animal Id</label>
-        <input type=&quot;text&quot; id=&quot;avatarId&quot; name=&quot;avatarId&quot; placeholder=&quot;avatar thing&quot; value=&quot;1&quot;>
+        <label for=&quot;avatarId&quot;>Animal</label>
+        <select type=&quot;text&quot; id=&quot;avatarId&quot; name=&quot;avatarId&quot;>
+            <option value=&quot;1&quot;>Tiger / 1</option>
+            <option value=&quot;2&quot;>Eagle / 2</option>
+            <option value=&quot;3&quot;>Deer / 3</option>
+            <option value=&quot;4&quot;>Wolf / 4</option>
+            <option value=&quot;5&quot;>Koala / 5</option>
+            <option value=&quot;6&quot;>Panda / 6</option>
+            <option value=&quot;7&quot;>Monkey / 7</option>
+            <option value=&quot;8&quot;>Bunny / 8</option>
+            <option value=&quot;9&quot;>Hyena / 9</option>
+            <option value=&quot;10&quot;>Otter / 10</option>
+            <option value=&quot;11&quot;>Polar Bear / 11</option>
+            <option value=&quot;12&quot;>Owl / 12</option>
+            <option value=&quot;13&quot;>Rhino / 13</option>
+            <option value=&quot;14&quot;>Llama / 14</option>
+            <option value=&quot;15&quot;>Crocodile / 15</option>
+            <option value=&quot;16&quot;>Elephant / 16</option>
+            <option value=&quot;17&quot;>Lion / 17</option>
+            <option value=&quot;18&quot;>Seal / 18</option>
+            <option value=&quot;19&quot;>Dolphin / 19</option>
+            <option value=&quot;20&quot;>Shark / 20</option>
+            <option value=&quot;21&quot;>Octopus / 21</option>
+            <option value=&quot;22&quot;>Turtle / 22</option>
+            <option value=&quot;23&quot;>Horse / 23</option>
+            <option value=&quot;24&quot;>Penguin / 24</option>
+            <option value=&quot;25&quot;>Fox / 25</option>
+            <option value=&quot;26&quot;>Giraffe / 26</option>
+            <option value=&quot;27&quot;>Kangaroo / 27</option>
+            <option value=&quot;28&quot;>Arctic Wolf / 28</option>
+            <option value=&quot;29&quot;>Snow Leopard / 29</option>
+            <option value=&quot;30&quot;>Raccoon / 30</option>
+            <option value=&quot;31&quot;>Cheetah / 31</option>
+            <option value=&quot;32&quot;>Lynx / 32</option>
+            <option value=&quot;33&quot;>Arctic Fox / 33</option>
+            <option value=&quot;34&quot;>Goat / 34</option>
+            <option value=&quot;35&quot;>Falcon / 35</option>
+            <option value=&quot;36&quot;>Pig / 36</option>
+            <option value=&quot;37&quot;>Sloth / 37</option>
+            <option value=&quot;38&quot;>Lemur / 38</option>
+            <option value=&quot;39&quot;>Toucan / 39</option>
+            <option value=&quot;40&quot;>Sheep / 40</option>
+            <option value=&quot;41&quot;>Cougar / 41</option>
+            <option value=&quot;42&quot;>Coyote / 42</option>
+            <option value=&quot;43&quot;>Flamingo / 43</option>
+            <option value=&quot;44&quot;>Red Panda / 44</option>
+            <option value=&quot;45&quot;>Clydesdale Horse / 45</option>
+            <option value=&quot;46&quot;>Sabertooth / 46</option>
+            <option value=&quot;47&quot;>Direwolf / 47</option>
+            <option value=&quot;48&quot;>Skunk / 48</option>
+            <option value=&quot;49&quot;>Great Horned Owl / 49</option>
+            <option value=&quot;50&quot;>Fennec Fox / 50</option>
+            <option value=&quot;51&quot;>Camel / 51</option>
+            <option value=&quot;52&quot;>Arabian Horse / 52</option>
+            <option value=&quot;53&quot;>Moose / 53</option>
+        </select>
         <br>
 
-        <label for=&quot;avatarId&quot;>Animation Id</label>
-        <input type=&quot;text&quot; name=&quot;categoryId&quot; placeholder=&quot;Category (25 big icon, 26 small)&quot; value=&quot;25&quot;>
+        <label for=&quot;avatarId&quot;>Animation</label>
+        <select type=&quot;text&quot; name=&quot;categoryId&quot; value=&quot;25&quot;>
+            <option value=&quot;1&quot;>SIT_NNE / 1</option>
+            <option value=&quot;2&quot;>SIT_NE / 2</option>
+            <option value=&quot;3&quot;>SIT_E / 3</option>
+            <option value=&quot;4&quot;>SIT_SE / 4</option>
+            <option value=&quot;5&quot;>SIT_SSE / 5</option>
+            <option value=&quot;6&quot;>PLAY / 6</option>
+            <option value=&quot;7&quot;>MOVE_NNE / 7</option>
+            <option value=&quot;8&quot;>MOVE_NE / 8</option>
+            <option value=&quot;9&quot;>MOVE_E / 9</option>
+            <option value=&quot;10&quot;>MOVE_SE / 10</option>
+            <option value=&quot;11&quot;>MOVE_SSE / 11</option>
+            <option value=&quot;13&quot;>BBCARD / 13</option>
+            <option value=&quot;14&quot;>IDLE_SE / 14</option>
+            <option value=&quot;15&quot;>HUD_AVT / 15</option>
+            <option value=&quot;16&quot;>IDLE_NE / 16</option>
+            <option value=&quot;17&quot;>HOP / 17</option>
+            <option value=&quot;18&quot;>ICON / 18</option>
+            <option value=&quot;19&quot;>PARACHUTE_IDLE / 19</option>
+            <option value=&quot;20&quot;>DISTRESS / 20</option>
+            <option value=&quot;21&quot;>PARACHUTE_LAND / 21</option>
+            <option value=&quot;22&quot;>SLEEP / 22</option>
+            <option value=&quot;23&quot;>DANCE / 23</option>
+            <option value=&quot;24&quot;>PARACHUTE_JUMP / 24</option>
+            <option value=&quot;25&quot; selected>ICON_L / 25</option>
+            <option value=&quot;26&quot;>ICON_S / 26</option>
+            <option value=&quot;28&quot;>WINDRIDER_JUMP / 28</option>
+            <option value=&quot;29&quot;>WINDRIDER_START / 29</option>
+            <option value=&quot;30&quot;>WINDRIDER_FALL / 30</option>
+            <option value=&quot;31&quot;>WINDRIDER_START / 31</option>
+            <option value=&quot;32&quot;>FLOAT / 32</option>
+            <option value=&quot;33&quot;>WATER_SPIN / 33</option>
+            <option value=&quot;34&quot;>JUMP_EAST (SWIM_NE) / 34</option>
+            <option value=&quot;35&quot;>LEAP (SWIM_SE) / 35</option>
+            <option value=&quot;36&quot;>SWIM_N / 36</option>
+            <option value=&quot;37&quot;>SWIM_S / 37</option>
+            <option value=&quot;38&quot;>WATER_JIG / 38</option>
+            <option value=&quot;39&quot;>WATER_PLAY / 39</option>
+            <option value=&quot;40&quot;>WATER_POSE / 40</option>
+            <option value=&quot;41&quot;>WATER_DIVE / 41</option>
+            <option value=&quot;42&quot;>PHOTO / 42</option>
+        </select>
         <br>
 
-        <label for=&quot;avatarId&quot;>Design Id</label>
-        <input type=&quot;text&quot; name=&quot;layerId&quot; placeholder=&quot;layer id&quot; value=&quot;43&quot;>
+        <label for=&quot;avatarId&quot;>Design</label>
+        <input type=&quot;text&quot; list=&quot;layerPreset&quot; id=&quot;preset&quot; name=&quot;layerId&quot; placeholder=&quot;Double-click me&quot;>
+        <datalist id=&quot;layerPreset&quot;>
+            <option value=&quot;3&quot;>Animal Model</option>
+            
+            <option value=&quot;1&quot;>Standard Eye</option>
+            <option value=&quot;5&quot;>Eyelash Eye</option>
+            <option value=&quot;6&quot;>Sleepy Eye</option>
+            <option value=&quot;22&quot;>Dot Eye</option>
+            <option value=&quot;23&quot;>&quot;Creepy&quot; Eye</option>
+            <option value=&quot;24&quot;>X Eye</option>
+            <option value=&quot;25&quot;>Evil Eye</option>
+            <option value=&quot;26&quot;>Goofy Eye</option>
+            <option value=&quot;155&quot;>Happy Eye Water</option>
+            <option value=&quot;156&quot;>Happy Eyelash Eye Water</option>
+
+            <option value=&quot;21&quot;>Swirl Pattern</option>
+            <option value=&quot;27&quot;>Spiral Pattern</option>
+            <option value=&quot;28&quot;>Blotch Pattern</option>
+            <option value=&quot;29&quot;>Spot Pattern</option>
+            <option value=&quot;30&quot;>Splatter Pattern</option>
+            <option value=&quot;31&quot;>Fire Pattern</option>
+            <option value=&quot;32&quot;>Lightning Pattern</option>
+            <option value=&quot;33&quot;>Leaf Pattern</option>
+            <option value=&quot;34&quot;>Heart Pattern</option>
+            <option value=&quot;35&quot;>Moon Pattern</option>
+            <option value=&quot;36&quot;>Star Pattern</option>
+
+            <option value=&quot;2&quot;>Tiger+Horse+Sabertooth Pat.</option>
+            <option value=&quot;4&quot;>Giraffe Pat.</option>
+            <option value=&quot;14&quot;>Fox+Raccoon Pat.</option>
+            <option value=&quot;15&quot;>Cheetah+Snow Leopard Pat.</option>
+            <option value=&quot;17&quot;>Lynx Pat.+Butterfly Design Pat.</option>
+            <option value=&quot;18&quot;>Toucan+Sloth Pat.</option>
+
+            <option value=&quot;157&quot;>Hibiscus Pattern Water</option>
+            <option value=&quot;158&quot;>Flower Pattern Water</option>
+            <option value=&quot;159&quot;>Stripe Pattern Water</option>            
+            <option value=&quot;160&quot;>Skull Pattern Water</option>
+            <option value=&quot;161&quot;>Sea Star Pattern Water</option>
+
+            <option value=&quot;16&quot;>Spring Bunny</option>
+            <option value=&quot;19&quot;>Snowflake Arctic Wolf</option>
+            <option value=&quot;20&quot;>Polar Arctic Fox</option>
+            <option value=&quot;1077&quot;>Enchanted Eagle</option>
+            <option value=&quot;1078&quot;>Autumn Coyote</option>
+            <option value=&quot;1079&quot;>Spooky Snow Leopard</option>
+            <option value=&quot;1080&quot;>Jamaaliday Deer</option>
+            <option value=&quot;1153&quot;>Legendary Eagle Magma</option>
+            <option value=&quot;1154&quot;>Legendary Eagle Metal</option>
+            <option value=&quot;1155&quot;>Legendary Eagle Wood</option>
+            <option value=&quot;1156&quot;>Legendary Eagle Crystal</option>
+            <option value=&quot;1161&quot;>Fearsome Falcon</option>
+            <option value=&quot;1162&quot;>Royal Red Panda</option>
+            <option value=&quot;1194&quot;>Frolicking Fox</option>
+            <option value=&quot;1224&quot;>Rainbow Raccoon</option>
+        </datalist>
+        <script>
+            const input = document.getElementById('preset');
+            input.addEventListener('focus', function() {
+            this.setAttribute('autocomplete', 'off'); 
+            });
+        </script>
         <br>
     </div>
     <div class=&quot;back1&quot;>
         <label for=&quot;avatarId&quot;>Color Code:</label>
-        <input type=&quot;text&quot; id=&quot;colorbutton&quot; name=&quot;color&quot; placeholder=&quot;leave blank for a random color&quot; value=&quot;&quot;>
+        <input type=&quot;text&quot; id=&quot;colorbutton&quot; name=&quot;color&quot; placeholder=&quot;Leave blank for a random color&quot; value=&quot;&quot;>
         <input id=&quot;gobutton&quot; type=&quot;submit&quot; value=&quot;Go!&quot;>
         <input type=&quot;checkbox&quot; name=&quot;layering&quot; id=&quot;layering&quot;><span id=&quot;color&quot;></span><select id=&quot;colorLayerPicker&quot;></select>
         <br>
@@ -267,8 +426,8 @@
         error(&quot;&quot;);
         var f = $(this);
         var layerId = $(&quot;input[name='layerId']&quot;, f).val();
-        var categoryId = $(&quot;input[name='categoryId']&quot;, f).val();
-        var avatarId = $(&quot;input[name='avatarId']&quot;, f).val();
+        var categoryId = $(&quot;select[name='categoryId']&quot;, f).val();
+        var avatarId = $(&quot;select[name='avatarId']&quot;, f).val();
         var color = $(&quot;input[name='color']&quot;, f).val();
         var layering = $(&quot;input[name='layering']&quot;, f).get(0).checked;
         if (layering) {
@@ -961,8 +1120,8 @@
                     item = items[itemMap[ui.item.label]];
                     var layering = $(&quot;#layering&quot;).get(0).checked;
                     if (!layering) {
-                        $(&quot;input[name='avatarId']&quot;).val(1);
-                        $(&quot;input[name='categoryId']&quot;).val(25);
+                        $(&quot;select[name='avatarId']&quot;).val(1);
+                        $(&quot;select[name='categoryId']&quot;).val(25);
                     }
                     $(&quot;input[name='layerId']&quot;).val(item.layerDefId);
                     $(&quot;input[name='color']&quot;).val(item.colors);
