@@ -102,11 +102,6 @@
     <link rel=&quot;stylesheet&quot; href=&quot;//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css&quot;>
 </head>
 <body>
-<script>
-    tippy(&quot;[data-tippy-content]&quot;, {
-        allowHTML: true,
-    });
-</script>
 <div id=&quot;bottom&quot;>
     <div><textarea name=&quot;quickIn&quot; placeholder=&quot;Animal|Animation|Item|Color&quot; id=&quot;quickIn&quot; cols=&quot;60&quot; rows=&quot;5&quot;></textarea></div><br>
     <button id=&quot;quickGo&quot;>Load</button>
@@ -319,6 +314,11 @@
 </div>
 <script src=&quot;https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js&quot;></script>
 <script src=&quot;https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js&quot;></script>
+<script>
+    tippy(&quot;[data-tippy-content]&quot;, {
+        allowHTML: true,
+    });
+</script>
 <script src=&quot;//code.jquery.com/jquery-1.11.1.js&quot;></script>
 <script src=&quot;//code.jquery.com/ui/1.12.1/jquery-ui.min.js&quot;></script>
 <script>
