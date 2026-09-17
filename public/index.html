@@ -31,6 +31,15 @@
       font-family: CCDigitalDelivery; 
       color: white; 
     }
+    #creditscorner {
+    position: relative;
+    }
+    #credits {
+      position: absolute;
+      bottom: -10px;
+      right: 10px;
+      z-index: 1000;
+    }
     #contentFrame {
       position: absolute;
       top: 0;
@@ -43,9 +52,12 @@
 <body>
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
-  <div id=&quot;lastupdated&quot;>
+<div id=&quot;lastupdated&quot;>
     <p id="updatedate" data-tippy-content="- Added dropdowns and autofills to Animal, Animation, Design ID boxes<br>- Full item list updated as of Aug 26">Last updated September 16, 2026</p>
-  </div>
+</div>
+<div id=&quot;creditscorner&quot;>
+    <img id="credits" src="Mellow.png" data-tippy-content="Credits">
+</div>
 <script>
     tippy("[data-tippy-content]", {
         allowHTML: true,
@@ -288,7 +300,7 @@
         <label for=&quot;avatarId&quot;>Color Code:</label>
         <input type=&quot;text&quot; id=&quot;colorbutton&quot; name=&quot;color&quot; placeholder=&quot;Leave blank for a random color&quot; value=&quot;&quot;>
         <input id=&quot;gobutton&quot; type=&quot;submit&quot; value=&quot;Go!&quot;>
-        <input type=&quot;checkbox&quot; name=&quot;layering&quot; id=&quot;layering&quot; data-tippy-content='<img src=&quot;background.png&quot;>'><span id=&quot;color&quot;></span><select id=&quot;colorLayerPicker&quot;></select>
+        <input type=&quot;checkbox&quot; name=&quot;layering&quot; id=&quot;layering&quot;><span id=&quot;color&quot;></span><select id=&quot;colorLayerPicker&quot;></select>
         <br>
         <br>
         <div id=&quot;colorslider&quot;>
