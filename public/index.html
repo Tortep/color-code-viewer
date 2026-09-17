@@ -222,7 +222,7 @@
         <label for=&quot;avatarId&quot;>Design</label>
         <input type=&quot;text&quot; list=&quot;layerPreset&quot; id=&quot;preset&quot; name=&quot;layerId&quot; placeholder=&quot;Double-click me&quot;>
         <datalist id=&quot;layerPreset&quot;>
-            <option value=&quot;3&quot;>Animal Model</option>
+            <option value=&quot;3&quot;>Animal Base</option>
             
             <option value=&quot;1&quot;>Standard Eye</option>
             <option value=&quot;5&quot;>Eyelash Eye</option>
@@ -288,7 +288,7 @@
         <label for=&quot;avatarId&quot;>Color Code:</label>
         <input type=&quot;text&quot; id=&quot;colorbutton&quot; name=&quot;color&quot; placeholder=&quot;Leave blank for a random color&quot; value=&quot;&quot;>
         <input id=&quot;gobutton&quot; type=&quot;submit&quot; value=&quot;Go!&quot;>
-        <input type=&quot;checkbox&quot; name=&quot;layering&quot; id=&quot;layering&quot; data-tippy-content=&quot;helo&quot;><span id=&quot;color&quot;></span><select id=&quot;colorLayerPicker&quot;></select>
+        <input type=&quot;checkbox&quot; name=&quot;layering&quot; id=&quot;layering&quot; data-tippy-content=&quot;Click this box to layer &quot;><span id=&quot;color&quot;></span><select id=&quot;colorLayerPicker&quot;></select>
         <br>
         <br>
         <div id=&quot;colorslider&quot;>
@@ -588,7 +588,7 @@
         var _loc4_ = null;
         var _loc5_ = false;
         var _loc6_ = 0;
-        calcBounds(param1);
+        calcAnimBounds();
         ctx = c.getContext('2d');
         id = ctx.getImageData(0,0,c.width, c.height);
         idBack = ctx.getImageData(0,0,c.width, c.height);
@@ -857,6 +857,60 @@
 
                 if(param1 < _loc3_) {
                     _loc8_ = _loc6_.f[param1];
+
+                    if(_loc8_) {
+                        _loc5_ = _loc8_.x;
+                        _loc4_ = _loc8_.y;
+                        _loc2_ = _loc8_.w;
+                        _loc9_ = _loc8_.h;
+                        if(_loc5_ < _bmin.x) {
+                            _bmin.x = _loc5_;
+                        }
+                        if(_loc4_ < _bmin.y) {
+                            _bmin.y = _loc4_;
+                        }
+                        if(_loc5_ + _loc2_ > _bmax.x) {
+                            _bmax.x = _loc5_ + _loc2_;
+                        }
+                        if(_loc4_ + _loc9_ > _bmax.y) {
+                            _bmax.y = _loc4_ + _loc9_;
+                        }
+                    }
+                }
+            }
+            _loc10_++;
+        }
+        if(_bmin.x == 1000 || _bmin.y == 1000) { return; }
+        resizeBitmap(1 + _bmax.x - _bmin.x,1 + _bmax.y - _bmin.y,true);
+        _anchorPoint.x = _bmin.x;
+        _anchorPoint.y = _bmin.y;
+    }
+    function calcAnimBounds() {
+        var _loc10_ = 0;
+        var _loc7_ = null;
+        var _loc6_ = null;
+        var _loc3_ = 0;
+        var _loc8_ = null;
+        var _loc5_ = 0;
+        var _loc4_ = 0;
+        var _loc2_ = 0;
+        var _loc9_ = 0;
+        var frame;
+        _bmin.x = 1000;
+        _bmin.y = 1000;
+        _bmax.x = 0;
+        _bmax.y = 0;
+        _loc10_ = 1;
+        while(_loc10_ < _layers.length) {
+            _loc7_ = _layers[_loc10_];
+            if(_loc7_ !== undefined &amp;&amp; _loc7_ != null &amp;&amp; _loc7_.o !== undefined) {
+                _loc6_ = _loc7_.o;
+
+                if(_loc6_.v != 117967104) { console.log(&quot;invalid version&quot;); return; }
+                _loc3_ = _loc6_.f.length;
+
+                for (var frame = 0; frame < _loc3_; frame++) {
+                    _loc8_ = _loc6_.f[frame];
 
                     if(_loc8_) {
                         _loc5_ = _loc8_.x;
