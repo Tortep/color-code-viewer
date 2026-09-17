@@ -25,11 +25,21 @@
     #updatedate {
       position: absolute;
       bottom: -10px;
-      right: 10px;
+      left: 10px;
       z-index: 1000;
       font-size: 16px;
       font-family: CCDigitalDelivery; 
-      color: white; 
+      color: white;
+      text-decoration-style: dotted;
+    }
+    #creditscorner {
+    position: relative;
+    }
+    #credits {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 1000;
     }
     #contentFrame {
       position: absolute;
@@ -38,12 +48,43 @@
       width: 100%;
       height: 100%;
     }
+    .tippy-box[data-theme~='AJ'] {
+        background-color: #efeadc;
+        color: #684a26;
+        font-family: CCDigitalDelivery;
+    }
+    .tippy-box[data-theme~='AJ'][data-placement^='top'] > .tippy-arrow::before {
+        border-top-color: #efeadc;
+    }
+    .tippy-box[data-theme~='AJ'][data-placement^='bottom'] > .tippy-arrow::before {
+        border-bottom-color: #efeadc;
+    }
+    .tippy-box[data-theme~='AJ'][data-placement^='left'] > .tippy-arrow::before {
+        border-left-color: #efeadc;
+    }
+    .tippy-box[data-theme~='AJ'][data-placement^='right'] > .tippy-arrow::before {
+        border-right-color: #efeadc;
+    }
+    .tippy-content {
+        text-align: center;
+    }
   </style>
 </head>
 <body>
-  <div id=&quot;lastupdated&quot;>
-    <p id="updatedate" title="- Added dropdowns and autofills to Animal, Animation, Design ID boxes&#013;- Full item list updated as of Aug 26">Last updated September 16, 2026</p>
-  </div>
+<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+<div id=&quot;lastupdated&quot;>
+    <p id="updatedate" data-tippy-content="• Added dropdowns to Animal and Animation ID boxes and autofill to Design ID box<br>• Adjusted animation frame bounds<br>• New credits location; hover or click on Mellow (he's the kangaroo) for credits<br>• Full item list updated as of Aug 26">Last updated September 16, 2026</p>
+</div>
+<div id=&quot;creditscorner&quot;>
+    <img id="credits" src="Mellow.png" data-tippy-content="<b>Credits</b><br>CSS by PhosphorescentBloom<br>JavaScript by Unknown<br>Hosted by Tortellini<br>Previously hosted by Wydking, Root<br>Help from PhosphorescentBloom, James">
+</div>
+<script>
+    tippy("[data-tippy-content]", {
+        theme: "AJ",
+        allowHTML: true,
+    });
+</script>
   <iframe id="contentFrame" frameborder="0" allowfullscreen=""
     srcdoc="<html><head><base href=&quot;.&quot; target=&quot;_top&quot;>
     <meta charset=&quot;utf-8&quot;>
@@ -56,12 +97,12 @@
         #history img { margin: 5px; background: rgba(0,0,0,.50); padding: 10px; border-radius: 30px;}
         #history { display: inline; align-content: center;}
         #scroll {height: calc(100vh - 250px); overflow: auto; margin-left: auto; margin-right: auto;}
-        textarea { margin-top: -64px; border-radius: 30px; padding: 20px; width: 265px; margin-top: 10px; height: 110px; font-size: 16px; resize: none;}
+        textarea { margin-top: -64px; border-radius: 30px; padding: 20px; font-family: sans-serif; width: 265px; margin-top: 10px; height: 110px; font-size: 16px; resize: none;}
         form {display: block;}
         button {font-size: 20px; border-radius: 30px; padding-left: 10px; padding-right: 10px; background: white; border: 3px solid rgba(255, 255, 255, 0.5); font-family: TikiIsland; width: 85px; cursor: pointer;}
         button:hover {background: grey;}
-        input[type=&quot;text&quot;], #autocomplete {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 16px; margin-left: 20px; width: 165px; text-align: center; background-color: rgba(255, 255, 255);}
-        select[type=&quot;text&quot;] {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 16px; margin-left: 20px; width: 165px; text-align: center; background-color: rgba(255, 255, 255);}
+        input[type=&quot;text&quot;], #autocomplete {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 16px; margin-left: 20px; width: 165px; text-align: center; font-family: sans-serif; background-color: rgba(255, 255, 255);}
+        select[type=&quot;text&quot;] {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 16px; margin-left: 20px; width: 165px; text-align: center; font-family: sans-serif; background-color: rgba(255, 255, 255);}
         input[type=&quot;submit&quot;] {height: 30px; border-radius: 30px; padding-left: 10px; padding-right: 10px;font-size: 20px; margin-left: 20px; width: 100px; text-align: center; font-family: TikiIsland; background-color: rgba(255, 255, 255);}
         #gobutton {background: white; cursor: pointer;}
         #gobutton:hover {background: grey;}
