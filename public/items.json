@@ -35794,7 +35794,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Scarecrow Straw Hat"
+    "name": "Scarecrow Straw Hat"
   },
   "4493": {
     "id": "4493",
@@ -35824,7 +35824,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Scarecrow Sunflower Necklace"
+    "name": "Scarecrow Sunflower Necklace"
   },
   "4494": {
     "id": "4494",
@@ -35854,7 +35854,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Scarecrow Plaid Shirt"
+    "name": "Scarecrow Plaid Shirt"
   },
   "4495": {
     "id": "4495",
@@ -35884,7 +35884,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Scarecrow Boots"
+    "name": "Scarecrow Boots"
   },
   "4496": {
     "id": "4496",
@@ -35914,7 +35914,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Scarecrow Tail Leaves"
+    "name": "Scarecrow Tail Leaves"
   },
   "4497": {
     "id": "4497",
@@ -35944,7 +35944,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Crow Feather Headpiece"
+    "name": "Crow Feather Headpiece"
   },
   "4498": {
     "id": "4498",
@@ -35974,7 +35974,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Crow Feather Collar"
+    "name": "Crow Feather Collar"
   },
   "4499": {
     "id": "4499",
@@ -36004,7 +36004,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Crow Feather Wings"
+    "name": "Crow Feather Wings"
   },
   "4500": {
     "id": "4500",
@@ -36034,7 +36034,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Crow Feather Shoes"
+    "name": "Crow Feather Shoes"
   },
   "4501": {
     "id": "4501",
@@ -36064,7 +36064,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Crow Feather Tail"
+    "name": "Crow Feather Tail"
   },
   "4502": {
     "id": "4502",
@@ -36094,7 +36094,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Liza's Alpha Sword"
+    "name": "Liza's Alpha Sword"
   },
   "4503": {
     "id": "4503",
@@ -36124,7 +36124,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Cosmo's Alpha Sword"
+    "name": "Cosmo's Alpha Sword"
   },
   "4504": {
     "id": "4504",
@@ -36154,7 +36154,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Graham's Alpha Sword"
+    "name": "Graham's Alpha Sword"
   },
   "4505": {
     "id": "4505",
@@ -36184,7 +36184,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Peck's Alpha Sword"
+    "name": "Peck's Alpha Sword"
   },
   "4506": {
     "id": "4506",
@@ -36214,7 +36214,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Sir Gilbert's Alpha Sword"
+    "name": "Sir Gilbert's Alpha Sword"
   },
   "4507": {
     "id": "4507",
@@ -36244,7 +36244,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Greely's Alpha Sword"
+    "name": "Greely's Alpha Sword"
   },
   "4508": {
     "id": "4508",
@@ -36274,7 +36274,7 @@
     "combinedCost": "",
     "availabilityStartTime": "1788760800",
     "availabilityEndTime": "1788847200",
-    "titleStrName": "Rare Television Helmet"
+    "name": "Rare Television Helmet"
   },
   "4509": {
     "id": "4509",
@@ -36304,7 +36304,7 @@
     "combinedCost": "",
     "availabilityStartTime": "1789365600",
     "availabilityEndTime": "1789452000",
-    "titleStrName": "Rare Frog Plushie Hat"
+    "name": "Rare Frog Plushie Hat"
   },
   "4510": {
     "id": "4510",
@@ -36334,7 +36334,7 @@
     "combinedCost": "",
     "availabilityStartTime": "1789970400",
     "availabilityEndTime": "1790056800",
-    "titleStrName": "Rare Toy Robot Mask"
+    "name": "Rare Toy Robot Mask"
   },
   "4511": {
     "id": "4511",
@@ -36364,7 +36364,7 @@
     "combinedCost": "",
     "availabilityStartTime": "1790575200",
     "availabilityEndTime": "1790661600",
-    "titleStrName": "Rare Cozy Striped Socks"
+    "name": "Rare Cozy Striped Socks"
   },
   "4512": {
     "id": "4512",
@@ -36394,7 +36394,7 @@
     "combinedCost": "",
     "availabilityStartTime": "1790834400",
     "availabilityEndTime": "1793512800",
-    "titleStrName": "Opal Gemstone Necklace"
+    "name": "Opal Gemstone Necklace"
   },
   "4513": {
     "id": "4513",
@@ -36424,7 +36424,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Peck Style Hat"
+    "name": "Peck Style Hat"
   },
   "4514": {
     "id": "4514",
@@ -36454,7 +36454,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Graham Style Hat"
+    "name": "Graham Style Hat"
   },
   "4515": {
     "id": "4515",
@@ -36484,7 +36484,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Greely Style Hat"
+    "name": "Greely Style Hat"
   },
   "4516": {
     "id": "4516",
@@ -36514,7 +36514,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Liza Style Hat"
+    "name": "Liza Style Hat"
   },
   "4517": {
     "id": "4517",
@@ -36544,7 +36544,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Cosmo Style Hat"
+    "name": "Cosmo Style Hat"
   },
   "4518": {
     "id": "4518",
@@ -36574,7 +36574,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Sir Gilbert Style Hat"
+    "name": "Sir Gilbert Style Hat"
   },
   "4519": {
     "id": "4519",
@@ -36604,7 +36604,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Koala Charm Necklace"
+    "name": "Koala Charm Necklace"
   },
   "4520": {
     "id": "4520",
@@ -36634,7 +36634,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Bunny Charm Necklace"
+    "name": "Bunny Charm Necklace"
   },
   "4521": {
     "id": "4521",
@@ -36664,7 +36664,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Tiger Charm Necklace"
+    "name": "Tiger Charm Necklace"
   },
   "4522": {
     "id": "4522",
@@ -36694,7 +36694,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Wolf Charm Necklace"
+    "name": "Wolf Charm Necklace"
   },
   "4523": {
     "id": "4523",
@@ -36724,7 +36724,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Monkey Charm Necklace"
+    "name": "Monkey Charm Necklace"
   },
   "4524": {
     "id": "4524",
@@ -36754,7 +36754,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Panda Charm Necklace"
+    "name": "Panda Charm Necklace"
   },
   "4525": {
     "id": "4525",
@@ -36784,7 +36784,7 @@
     "combinedCost": "",
     "availabilityStartTime": "1788328800",
     "availabilityEndTime": "1790834400",
-    "titleStrName": "Dolphin Charm Necklace"
+    "name": "Dolphin Charm Necklace"
   },
   "4526": {
     "id": "4526",
@@ -36814,7 +36814,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Rare Whiteout Phantom Beanie"
+    "name": "Rare Whiteout Phantom Beanie"
   },
   "4527": {
     "id": "4527",
@@ -36844,7 +36844,7 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Rare Whiteout Peacock Feathers"
+    "name": "Rare Whiteout Peacock Feathers"
   },
   "4528": {
     "id": "4528",
@@ -36874,6 +36874,6 @@
     "combinedCost": "",
     "availabilityStartTime": null,
     "availabilityEndTime": null,
-    "titleStrName": "Rare Whiteout Phantom Hoodie"
+    "name": "Rare Whiteout Phantom Hoodie"
   }
 }
