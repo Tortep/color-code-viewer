@@ -582,20 +582,21 @@
     var lastFrame = -1;
     var frame = 0;
     var animating = false;
+    var framelist = [];
+    var downloading = false;
     function tick(t) {
         msPerTick = 1/15 * 1000;
         if (lastTick == 0) { lastTick = t};
         if (t - lastTick >= msPerTick  &amp;&amp; animating &amp;&amp; _layers[theLayer].o !== undefined) {
-          if (print==1) {
+        if (print == 1) {
             var canvasData = canvas.toDataURL('image/png');
-            var link = document.createElement('a');
-            link.href = canvas.toDataURL('image/png');
-            link.download = 'frame' + frame + '.png';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-          }
+            framelist.push({
+            data: canvasData,
+            filename: 'frame' + frame + '.png'
+            });
 
+             frameprocess();
+        }
             frame++;
             if (frame > _layers[theLayer].o.f.length - 1) {
               if(print==1) {
@@ -609,6 +610,24 @@
         }
 
         window.requestAnimationFrame(tick);
+    }
+    async function frameprocess() {
+        if (downloading) return;
+        downloading = true;
+
+        while (framelist.length > 0) {
+        var item = framelist.shift();
+        var link = document.createElement('a');
+        link.href = item.data;
+        link.download = item.filename;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        await new Promise(resolve => setTimeout(resolve, 500));
+        }
+
+        downloading = false;
     }
     function paint(param1, param2 = false, param3 = true) {
         var _loc4_ = null;
