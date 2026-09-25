@@ -18,6 +18,9 @@ app.use(express.static('public', {
 
 var imageArrays = {};
 
+app.use('/iconLayer', (req, res, next) => {
+    res.set('Cache-Control', 'public, max-age=1296000');
+    next();
 app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
 
   const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
