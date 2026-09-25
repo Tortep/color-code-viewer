@@ -12,7 +12,9 @@ const web_port  = 8080;
 const Readable  = require('stream').Readable;
 const Writable  = require('stream').Writable;
 
-app.use(express.static('public'));
+app.use(express.static('public', {
+  maxAge: 2592000000
+}))
 
 var imageArrays = {};
 
