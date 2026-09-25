@@ -20,6 +20,7 @@ var imageArrays = {};
 
 app.use('/iconLayer', (req, res, next) => {
     res.set('Cache-Control', 'public, max-age=1296000');
+    res.type('json');
     next();
 app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
 
