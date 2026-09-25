@@ -20,17 +20,7 @@ var imageArrays = {};
 
 app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
   res.set('Cache-Control', 'public, max-age=1296000')
-
-  app.use(function (req, res, next) {
-  if (! ('JSONResponse' in res) ) {
-    return next();
-  }
-
-  res.set('Cache-Control', 'public, max-age=31557600');
-  res.json(res.JSONResponse);
-})
   
-
   const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
 
   var pre = `${VER}/imageArrays`;
