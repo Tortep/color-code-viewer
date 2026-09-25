@@ -13,7 +13,7 @@ const Readable  = require('stream').Readable;
 const Writable  = require('stream').Writable;
 
 app.use(express.static('public', {
-  maxAge: 1296000
+  maxAge: 1296000000
 }))
 
 var imageArrays = {};
