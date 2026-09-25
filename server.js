@@ -19,6 +19,17 @@ app.use(express.static('public', {
 var imageArrays = {};
 
 app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
+  res.set('Cache-Control', 'public, max-age=1296000')
+
+  app.use(function (req, res, next) {
+  if (! ('JSONResponse' in res) ) {
+    return next();
+  }
+
+  res.set('Cache-Control', 'public, max-age=31557600');
+  res.json(res.JSONResponse);
+})
+  
 
   const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
 
@@ -43,6 +54,7 @@ app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
   var url = `https://ajcontent.akamaized.net/${pre}/${hash}?v=${v}`;
 
   if (imageArrays[url] != undefined) {
+      res.set('Cache-Control', 'public, max-age=1296000');
       res.writeHead(200, {'Content-Type': 'text/json'});
       res.write(JSON.stringify(imageArrays[url], null, 2));
       res.end();
