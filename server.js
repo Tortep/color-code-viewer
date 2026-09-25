@@ -13,13 +13,13 @@ const Readable  = require('stream').Readable;
 const Writable  = require('stream').Writable;
 
 app.use(express.static('public', {
-  maxAge: 2592000000
+  maxAge: 1296000
 }))
 
 var imageArrays = {};
 
 app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
-  res.set('Cache-Control', 'public, max-age=1296000')
+  res.set('Cache-Control', 'public, max-age=2592000')
   
   const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
 
