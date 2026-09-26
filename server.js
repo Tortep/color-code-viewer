@@ -1,4 +1,5 @@
 const net     = require('net');
+const path    = require('path');
 const express = require('express');
 const app     = express();
 const http    = require('http').Server(app);
@@ -12,9 +13,16 @@ const web_port  = 8080;
 const Readable  = require('stream').Readable;
 const Writable  = require('stream').Writable;
 
-app.use(express.static('public', {
-  maxAge: 1296000000
-}))
+app.use(express.static(path.join(__dirname, 'public'), {
+    setHeaders: JSONcache,
+  })
+);
+
+function JSONcache(res, file) {
+  if (path.extname(file) === '.json') {
+    res.setHeader('Cache-Control', 'public, max-age=1296000');
+  }
+}
 
 var imageArrays = {};
 
