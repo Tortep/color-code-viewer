@@ -13,14 +13,8 @@ const Readable  = require('stream').Readable;
 const Writable  = require('stream').Writable;
 
 app.use(express.static('public', {
-  setHeaders: JSONcache
+  maxAge: 1296000000
 }))
-
-function JSONcache(res, file) {
-  if (path.extname(file) === '.json') {
-    res.setHeader('Cache-Control', 'public, max-age=1296000');
-  }
-}
 
 var imageArrays = {};
 
