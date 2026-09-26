@@ -306,6 +306,7 @@ Legs→Tail→Body→Neck→Head" id="quickIn" cols="60" rows="5"></textarea></d
     var allColors = [];
     var lastUrl = -1;
     var layering = false;
+    var colorOrder = 0;
 
     cs = {};
     _layers[theLayer] = {
@@ -413,21 +414,17 @@ Legs→Tail→Body→Neck→Head" id="quickIn" cols="60" rows="5"></textarea></d
             }
         };
 
-        if (color.match(/,/)) {
+        if (color == "") {
+            color = allColors[parseInt((allColors.length) * Math.random())];
+        } else {
+            if (color.match(/,/)) {
             colors = color.split(",");
-        } else if (color == "") {
-            colors = allColors;
         } else {
             colors = [color];
         }
-        color = colors[parseInt((colors.length) * Math.random())];
-        /*
-        if (colors.length > 1 && color == lastColor) {
-          error("same color as last time");
-          $(this).submit;
-          return false;
+        color = colors[colorOrder % colors.length];
+        colorOrder++;
         }
-        */
         lastColor = color;
         $("#color").html(color);
         updateSliderVals();
