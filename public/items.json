@@ -21728,5 +21728,395 @@
     "layerDefId": "881",
     "colors": "4283787605",
     "name": "Rare Whiteout Phantom Hoodie"
+  },
+  "4529": {
+    "layerDefId": "1046",
+    "colors": "1396702976",
+    "name": "Grim Hood"
+  },
+  "4530": {
+    "layerDefId": "1049",
+    "colors": "4282335059",
+    "name": "Grim Pendant"
+  },
+  "4531": {
+    "layerDefId": "1047",
+    "colors": "1396702976",
+    "name": "Grim Cloak"
+  },
+  "4532": {
+    "layerDefId": "1048",
+    "colors": "4283645760",
+    "name": "Grim Mittens"
+  },
+  "4533": {
+    "layerDefId": "1050",
+    "colors": "1396702976",
+    "name": "Grim Tail"
+  },
+  "4534": {
+    "layerDefId": "1204",
+    "colors": "1397964647",
+    "name": "Vampiric Horned Top Hat"
+  },
+  "4535": {
+    "layerDefId": "1206",
+    "colors": "1392508928",
+    "name": "Vampiric Lace Cravat"
+  },
+  "4536": {
+    "layerDefId": "1208",
+    "colors": "1396653927",
+    "name": "Vampiric Suit Cape"
+  },
+  "4537": {
+    "layerDefId": "1210",
+    "colors": "1396659027",
+    "name": "Vampiric Elegant Boots"
+  },
+  "4538": {
+    "layerDefId": "1212",
+    "colors": "1396653824",
+    "name": "Vampiric Bat Tail"
+  },
+  "4539": {
+    "layerDefId": "1140",
+    "colors": "1062430567",
+    "name": "Bat Amulet"
+  },
+  "4540": {
+    "layerDefId": "39",
+    "colors": "4285136895",
+    "name": "Whiteout Skull Helmet"
+  },
+  "4541": {
+    "layerDefId": "658",
+    "colors": "4278190185",
+    "name": "Whiteout Spiked Spine"
+  },
+  "4542": {
+    "layerDefId": "642",
+    "colors": "4285071360",
+    "name": "Whiteout Bone Claws"
+  },
+  "4543": {
+    "layerDefId": "516",
+    "colors": "1778319360",
+    "name": "Whiteout Bone Tail"
+  },
+  "4544": {
+    "layerDefId": "999",
+    "colors": "1442840405",
+    "name": "Whiteout Worn Spiked Collar"
+  },
+  "4545": {
+    "layerDefId": "994",
+    "colors": "1442802005",
+    "name": "Whiteout Worn Spiked Wristband"
+  },
+  "4546": {
+    "layerDefId": "134",
+    "colors": "1847401814",
+    "name": "Delightful Zombie Dragon Mask"
+  },
+  "4547": {
+    "layerDefId": "135",
+    "colors": "1847401814",
+    "name": "Epic Delightful Zombie Dragon Mask"
+  },
+  "4548": {
+    "layerDefId": "47",
+    "colors": "1444743534",
+    "name": "Delightful Zombie Dragon Wings"
+  },
+  "4549": {
+    "layerDefId": "143",
+    "colors": "1851129856",
+    "name": "Delightful Zombie Dragon Glove"
+  },
+  "4550": {
+    "layerDefId": "1004",
+    "colors": "1450057070",
+    "name": "Delightful Zombie Dragon Tail"
+  },
+  "4551": {
+    "layerDefId": "601",
+    "colors": "492203520",
+    "name": "Delightful Zombie Dragon Scale Cuffs"
+  },
+  "4552": {
+    "layerDefId": "309",
+    "colors": "1903563382",
+    "name": "Crimson Moon Phantom Mask"
+  },
+  "4553": {
+    "layerDefId": "241",
+    "colors": "1903563282",
+    "name": "Crimson Moon Phantom Necklace"
+  },
+  "4554": {
+    "layerDefId": "419",
+    "colors": "1897035377",
+    "name": "Crimson Moon Cloak"
+  },
+  "4555": {
+    "layerDefId": "471",
+    "colors": "1903558656",
+    "name": "Crimson Moon Claws"
+  },
+  "4556": {
+    "layerDefId": "1027",
+    "colors": "1897005056",
+    "name": "Crimson Moon Tail"
+  },
+  "4557": {
+    "layerDefId": "798",
+    "colors": "1897035382",
+    "name": "Crimson Moon Three-Headed Monster Mask"
+  },
+  "4558": {
+    "layerDefId": "499",
+    "colors": "140712988",
+    "name": "Spooky Branch Antlers"
+  },
+  "4559": {
+    "layerDefId": "310",
+    "colors": "470293859",
+    "name": "Spooky Feathered Mask"
+  },
+  "4560": {
+    "layerDefId": "576",
+    "colors": "470293859",
+    "name": "Spooky Feathered Bird Hat"
+  },
+  "4561": {
+    "layerDefId": "647",
+    "colors": "1661476124",
+    "name": "Spooky Heart Skull Helmet"
+  },
+  "4562": {
+    "layerDefId": "295",
+    "colors": "476252189",
+    "name": "Spooky Crossbow"
+  },
+  "4563": {
+    "layerDefId": "319",
+    "colors": "471687965",
+    "name": "Spooky Stone Sword"
+  },
+  "4564": {
+    "layerDefId": "932",
+    "colors": "1393054472",
+    "name": "Peck's Phantomized Helmet"
+  },
+  "4565": {
+    "layerDefId": "933",
+    "colors": "139664412",
+    "name": "Peck's Phantomized Amulet"
+  },
+  "4566": {
+    "layerDefId": "934",
+    "colors": "1393045532",
+    "name": "Peck's Phantomized Armor"
+  },
+  "4567": {
+    "layerDefId": "935",
+    "colors": "1393054492",
+    "name": "Peck's Phantomized Gauntlets"
+  },
+  "4568": {
+    "layerDefId": "936",
+    "colors": "1393035292",
+    "name": "Peck's Phantomized Tail Armor"
+  },
+  "4569": {
+    "layerDefId": "948",
+    "colors": "1393040412",
+    "name": "Greely's Phantomized Helmet"
+  },
+  "4570": {
+    "layerDefId": "947",
+    "colors": "1397950492",
+    "name": "Greely's Phantomized Amulet"
+  },
+  "4571": {
+    "layerDefId": "955",
+    "colors": "1393040412",
+    "name": "Greely's Phantomized Armor"
+  },
+  "4572": {
+    "layerDefId": "950",
+    "colors": "1393040467",
+    "name": "Greely's Phantomized Gauntlets"
+  },
+  "4573": {
+    "layerDefId": "952",
+    "colors": "1393040432",
+    "name": "Greely's Phantomized Tail Armor"
+  },
+  "4574": {
+    "layerDefId": "946",
+    "colors": "139664432",
+    "name": "Liza's Phantomized Helmet"
+  },
+  "4575": {
+    "layerDefId": "949",
+    "colors": "1393035292",
+    "name": "Liza's Phantomized Amulet"
+  },
+  "4576": {
+    "layerDefId": "956",
+    "colors": "139678512",
+    "name": "Liza's Phantomized Armor"
+  },
+  "4577": {
+    "layerDefId": "951",
+    "colors": "139669532",
+    "name": "Liza's Phantomized Gauntlets"
+  },
+  "4578": {
+    "layerDefId": "953",
+    "colors": "139664412",
+    "name": "Liza's Phantomized Tail Armor"
+  },
+  "4579": {
+    "layerDefId": "964",
+    "colors": "136074032",
+    "name": "Sir Gilbert's Phantomized Helmet"
+  },
+  "4580": {
+    "layerDefId": "969",
+    "colors": "136073984",
+    "name": "Sir Gilbert's Phantomized Amulet"
+  },
+  "4581": {
+    "layerDefId": "973",
+    "colors": "1393035292",
+    "name": "Sir Gilbert's Phantomized Armor"
+  },
+  "4582": {
+    "layerDefId": "958",
+    "colors": "136074032",
+    "name": "Sir Gilbert's Phantomized Gauntlets"
+  },
+  "4583": {
+    "layerDefId": "978",
+    "colors": "1393040412",
+    "name": "Sir Gilbert's Phantomized Tail Armor"
+  },
+  "4584": {
+    "layerDefId": "965",
+    "colors": "1393054492",
+    "name": "Graham's Phantoized Helmet"
+  },
+  "4585": {
+    "layerDefId": "968",
+    "colors": "1393045552",
+    "name": "Graham's Phantomized Amulet"
+  },
+  "4586": {
+    "layerDefId": "972",
+    "colors": "1393054492",
+    "name": "Graham's Phantomized Armor"
+  },
+  "4587": {
+    "layerDefId": "957",
+    "colors": "1393040432",
+    "name": "Graham's Phantomized Gauntlets"
+  },
+  "4588": {
+    "layerDefId": "977",
+    "colors": "1393040412",
+    "name": "Graham's Phantomized Tail Armor"
+  },
+  "4589": {
+    "layerDefId": "966",
+    "colors": "475203632",
+    "name": "Cosmo's Phantomized Helmet"
+  },
+  "4590": {
+    "layerDefId": "970",
+    "colors": "1393033216",
+    "name": "Cosmo's Phantomized Amulet"
+  },
+  "4591": {
+    "layerDefId": "974",
+    "colors": "475203632",
+    "name": "Cosmo's Phantomized Armor"
+  },
+  "4592": {
+    "layerDefId": "959",
+    "colors": "475203632",
+    "name": "Cosmo's Phantomized Gauntlets"
+  },
+  "4593": {
+    "layerDefId": "979",
+    "colors": "810747952",
+    "name": "Cosmo's Phantomized Tail Armor"
+  },
+  "4594": {
+    "layerDefId": "331",
+    "colors": "138767982",
+    "name": "Rare Super Sweet Archer Hat"
+  },
+  "4595": {
+    "layerDefId": "47",
+    "colors": "1850033416",
+    "name": "Rare Super Sweet Dragon Wings"
+  },
+  "4596": {
+    "layerDefId": "361",
+    "colors": "1159491184",
+    "name": "Rare Super Sweet Flower Crown"
+  },
+  "4597": {
+    "layerDefId": "223",
+    "colors": "1158159470",
+    "name": "Rare Super Sweet DJ Headset"
+  },
+  "4598": {
+    "layerDefId": "560",
+    "colors": "522133279",
+    "name": "Rare Brown Moustache"
+  },
+  "4599": {
+    "layerDefId": "603",
+    "colors": "1464074089",
+    "name": "Topaz Gemstone Necklace"
+  },
+  "4600": {
+    "layerDefId": "729",
+    "colors": "1667457891",
+    "name": "Rare Slime Green Chomper Plant"
+  },
+  "4601": {
+    "layerDefId": "515",
+    "colors": "1667457891",
+    "name": "Rare Slime Green Zombie Mask"
+  },
+  "4602": {
+    "layerDefId": "1212",
+    "colors": "1667457891",
+    "name": "Rare Slime Green Bat Tail"
+  },
+  "4603": {
+    "layerDefId": "928",
+    "colors": "1394346239",
+    "name": "Phantomized Alpha Helmet"
+  },
+  "4604": {
+    "layerDefId": "1008",
+    "colors": "139664412",
+    "name": "Phantomized Alpha Armor"
+  },
+  "4605": {
+    "layerDefId": "1009",
+    "colors": "136074012",
+    "name": "Phantomized Alpha Gauntlets"
+  },
+  "4606": {
+    "layerDefId": "742",
+    "colors": "139664412",
+    "name": "Phantomized Alpha Sword"
   }
 }
