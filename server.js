@@ -52,10 +52,10 @@ app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
   var url = `https://ajcontent.akamaized.net/${pre}/${hash}?v=${v}`;
 
   if (imageArrays[url] != undefined) {
-      res.set('Cache-Control', 'public, max-age=1296000');
       res.writeHead(200, {'Content-Type': 'text/json'});
       res.write(JSON.stringify(imageArrays[url], null, 2));
       res.end();
+      return;
   }
 
   var cmd = `curl \"${url}\" -m 15 -H \"Referer: https://www.animaljam.com/game/play\" -H \"User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.21 Safari/537.36\" -H \"X-Requested-With: ShockwaveFlash/24.0.0.186\" --compressed`
