@@ -29,7 +29,7 @@ function JSONcache(res, file) {
 var imageArrays = {};
 
 app.get('/iconLayer/:animalType-:iconSize-:layer', async function(req, res) {
-  res.set('Cache-Control', 'public, max-age=5184000')
+  res.set('Cache-Control', 'public, max-age=10368000')
   
   const VER = await fetch('https://www.animaljam.com/flashvars').then(r => r.json()).then(j => j.smoke_version);
 
