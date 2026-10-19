@@ -486,7 +486,7 @@ Legs→Tail→Body→Neck→Head" id="quickIn" cols="60" rows="5"></textarea></d
         }
     }
     $(".cSlider").on(&#39;change&#39;, function () {
-        color = $("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val()) >>> 0;
+        color = ($("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val()) >>> 0;
         lastColor = color;
         updateSliderVals();
         $("#color").html(color);
@@ -1159,7 +1159,7 @@ Legs→Tail→Body→Neck→Head" id="quickIn" cols="60" rows="5"></textarea></d
         return function() {
             var changeStyling = document.getElementById(lastClicked);
             changeStyling.value = number;
-            color = $("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val()) >>> 0;
+            color = ($("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val()) >>> 0;
             lastColor = color;
             updateSliderVals();
             $("#color").html(color);
