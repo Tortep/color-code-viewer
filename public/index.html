@@ -9,7 +9,7 @@
 <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
 <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
 <div id='"lastupdated"'>
-<p id="updatedate" data-tippy-content="• New credits location; hover or click on the kangaroo for credits">Last updated October 13, 2026</p>
+<p id="updatedate" data-tippy-content="• Full item list updated for the month<br>• Color codes are now only positive">Last updated October 19, 2026</p>
 </div>
 <div id='"creditscorner"'>
 <img id="credits" src="Melloween.png" data-tippy-content="CSS by PhosphorescentBloom<br>Maintained by Tortellini<br>Thanks to PhosphorescentBloom and Medic; James and Due for the help; and the original programmer(s) of this site">
@@ -486,7 +486,7 @@ Legs→Tail→Body→Neck→Head" id="quickIn" cols="60" rows="5"></textarea></d
         }
     }
     $(".cSlider").on(&#39;change&#39;, function () {
-        color = $("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val();
+        color = $("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val()) >>> 0;
         lastColor = color;
         updateSliderVals();
         $("#color").html(color);
@@ -1159,7 +1159,7 @@ Legs→Tail→Body→Neck→Head" id="quickIn" cols="60" rows="5"></textarea></d
         return function() {
             var changeStyling = document.getElementById(lastClicked);
             changeStyling.value = number;
-            color = $("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val();
+            color = $("#c1").val() << 24 | $("#c2").val() << 16 | $("#c3").val() << 8 | $("#c4").val()) >>> 0;
             lastColor = color;
             updateSliderVals();
             $("#color").html(color);
