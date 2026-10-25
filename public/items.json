@@ -1437,7 +1437,7 @@
   "392": {
     "layerDefId": "118",
     "colors": "1733640512",
-    "name": "Rare Jolly Elf Hat"
+    "name": "Rare Jolly Elf Hat 1"
   },
   "393": {
     "layerDefId": "127",
@@ -4967,7 +4967,7 @@
   "1119": {
     "layerDefId": "646",
     "colors": "422379519",
-    "name": "Happy Cat Hat"
+    "name": "Happy Cat Hat 1"
   },
   "1120": {
     "layerDefId": "649",
@@ -5992,7 +5992,7 @@
   "1347": {
     "layerDefId": "885",
     "colors": "2659971157,2659936597,2659919957,2659916885,2659920725,2659936085,2659972437,2659915861",
-    "name": "Friendship Antlers"
+    "name": "Friendship Antlers 1"
   },
   "1348": {
     "layerDefId": "325",
@@ -6367,7 +6367,7 @@
   "1428": {
     "layerDefId": "892",
     "colors": "361709417",
-    "name": "Bug Hat"
+    "name": "Bug Hat 1"
   },
   "1429": {
     "layerDefId": "893",
@@ -18707,7 +18707,7 @@
   "3913": {
     "layerDefId": "892",
     "colors": "476659561,409550697,375996265,677986153,392773481,459882345,1734950761,1764441961",
-    "name": "Bug Hat"
+    "name": "Bug Hat 2"
   },
   "3914": {
     "layerDefId": "308",
@@ -19272,7 +19272,7 @@
   "4026": {
     "layerDefId": "118",
     "colors": "4046745691",
-    "name": "Rare Jolly Elf Hat"
+    "name": "Rare Jolly Elf Hat 2"
   },
   "4027": {
     "layerDefId": "355",
@@ -19782,12 +19782,12 @@
   "4128": {
     "layerDefId": "509",
     "colors": "1061158719",
-    "name": "Frightful Skeleton Suit"
+    "name": "Frightful Skeleton Suit 1"
   },
   "4129": {
     "layerDefId": "188",
     "colors": "1073741823",
-    "name": "Frightful Skeleton Suit"
+    "name": "Frightful Skeleton Suit 2"
   },
   "4130": {
     "layerDefId": "273",
@@ -20202,62 +20202,62 @@
   "4212": {
     "layerDefId": "690",
     "colors": "539820085",
-    "name": "Rugged Winter Hat"
+    "name": "Rugged Winter Hat 1"
   },
   "4213": {
     "layerDefId": "690",
     "colors": "352387125,402915381,436600885,369229877,470286389,390529077,1767047221,1399390261",
-    "name": "Rugged Winter Hat"
+    "name": "Rugged Winter Hat 2"
   },
   "4214": {
     "layerDefId": "688",
     "colors": "352853033",
-    "name": "Striped Winter Beanie"
+    "name": "Striped Winter Beanie 1"
   },
   "4215": {
     "layerDefId": "688",
     "colors": "83896344,386412644,503589928,134425372,436678482,369503786,1094674431,1396834112",
-    "name": "Striped Winter Beanie"
+    "name": "Striped Winter Beanie 2"
   },
   "4216": {
     "layerDefId": "839",
     "colors": "807940453",
-    "name": "Fancy Animal Slippers"
+    "name": "Fancy Animal Slippers 1"
   },
   "4217": {
     "layerDefId": "839",
     "colors": "354999401,472444009,371762025,438872937,388511081,405317737,1395156841,1428750185",
-    "name": "Fancy Animal Slippers"
+    "name": "Fancy Animal Slippers 2"
   },
   "4218": {
     "layerDefId": "831",
     "colors": "1110547817",
-    "name": "Light Up Hibiscus Ring"
+    "name": "Light Up Hibiscus Ring 1"
   },
   "4219": {
     "layerDefId": "831",
     "colors": "1109160041,1114698089,1114774889,1114111848,1123250281,1108672873,1123104105,1123414377",
-    "name": "Light Up Hibiscus Ring"
+    "name": "Light Up Hibiscus Ring 2"
   },
   "4220": {
     "layerDefId": "885",
     "colors": "1919491433",
-    "name": "Friendship Antlers"
+    "name": "Friendship Antlers 2"
   },
   "4221": {
     "layerDefId": "885",
     "colors": "352394345,1447176041,402937449,790304361,470298985,369243497,1416058217,1765888873",
-    "name": "Friendship Antlers"
+    "name": "Friendship Antlers 3"
   },
   "4222": {
     "layerDefId": "392",
     "colors": "385876068",
-    "name": "Hoop Earrings"
+    "name": "Hoop Earrings 1"
   },
   "4223": {
     "layerDefId": "392",
     "colors": "654311483,352321577,402653228,436207662,469762096,369098794,1392508992,671088741",
-    "name": "Hoop Earrings"
+    "name": "Hoop Earrings 2"
   },
   "4224": {
     "layerDefId": "1138",
@@ -20517,7 +20517,7 @@
   "4275": {
     "layerDefId": "646",
     "colors": "687804957,774373396,1884767019,4046934827,355337983,404095767,807143447,1764102696",
-    "name": "Happy Cat Hat"
+    "name": "Happy Cat Hat 2"
   },
   "4276": {
     "layerDefId": "711",
